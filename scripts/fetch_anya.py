@@ -8,7 +8,7 @@ import secrets
 import requests
 
 ANYA_BASE = "https://anya.cmoney.tw"
-TX_DATE = "2026-04-13 00:00:00"
+TX_DATE = "2026-04-14 00:00:00"
 CREATORS = [29475, 3158198, 348444]
 OUTPUT = "src/data/creators.json"
 
@@ -87,39 +87,51 @@ def fetch_creator(cid):
     ]
     time.sleep(2)
 
-    # 2. Display stats (month, get article IDs with reach data)
+    # 2. Posts first — get latest 15 articles by this creator
+    #    (more than 10 so we have buffer after dedup)
+    print("  Fetching recent posts...")
+    posts = query(
+        f"SELECT articleid, title, commoditytags, createtime "
+        f"FROM trans_post_latest_all WHERE creatorid = {cid} "
+        f"ORDER BY createtime DESC LIMIT 15",
+        limit=15,
+    )
+    # Deduplicate and take top 10
+    seen = set()
+    unique_posts = []
+    for p in posts:
+        if p["articleid"] not in seen:
+            seen.add(p["articleid"])
+            unique_posts.append(p)
+    posts = unique_posts[:10]
+    top_ids = [p["articleid"] for p in posts]
+    ids_str = ",".join(top_ids)
+    print(f"  Got {len(posts)} articles (latest: {posts[0]['createtime'][:10] if posts else 'N/A'})")
+    time.sleep(2)
+
+    # 3. Display stats for these articles (try both week and month)
     print("  Fetching display stats...")
     display = query(
-        f"SELECT articleid, user_cnt, displayed_cnt, kind, ddate "
-        f"FROM trans_displayed_stat WHERE creatorid = {cid} AND kind = 'month' "
-        f"ORDER BY articleid DESC LIMIT 100",
+        f"SELECT articleid, user_cnt, kind "
+        f"FROM trans_displayed_stat WHERE articleid IN ({ids_str}) "
+        f"AND kind IN ('week', 'month') ",
         limit=100,
     )
     disp_map = {}
-    article_ids_with_reach = []
     for d in display:
         aid = d["articleid"]
-        disp_map[aid] = int(d["user_cnt"] or 0)
-        if aid not in article_ids_with_reach:
-            article_ids_with_reach.append(aid)
-    time.sleep(2)
-
-    # 3. Get post info for articles with display data (top 10)
-    top_ids = article_ids_with_reach[:10]
-    ids_str = ",".join(top_ids)
-    print(f"  Fetching posts for {len(top_ids)} articles...")
-    posts = query(
-        f"SELECT articleid, title, commoditytags, createtime "
-        f"FROM trans_post_latest_all WHERE articleid IN ({ids_str})",
-        limit=100,
-    )
+        cnt = int(d["user_cnt"] or 0)
+        # Keep the larger value (month > week usually)
+        if cnt > disp_map.get(aid, 0):
+            disp_map[aid] = cnt
     time.sleep(2)
 
     # 4. Interactions for these articles
     print("  Fetching interactions...")
     interactions = query(
         f"SELECT articleid, interaction_type, SUM(CAST(cnt AS INT)) as total "
-        f"FROM trans_interaction_stat WHERE articleid IN ({ids_str}) AND kind = 'month' "
+        f"FROM trans_interaction_stat WHERE articleid IN ({ids_str}) "
+        f"AND kind IN ('week', 'month') "
         f"GROUP BY articleid, interaction_type",
         limit=200,
     )
@@ -129,8 +141,10 @@ def fetch_creator(cid):
         if aid not in inter_map:
             inter_map[aid] = {"emoji": 0, "comment": 0, "share": 0, "donate": 0, "total": 0}
         cnt = int(i["total"] or 0)
-        inter_map[aid][i["interaction_type"]] = cnt
-        inter_map[aid]["total"] += cnt
+        itype = i["interaction_type"]
+        if cnt > inter_map[aid].get(itype, 0):
+            inter_map[aid][itype] = cnt
+            inter_map[aid]["total"] = sum(v for k, v in inter_map[aid].items() if k != "total")
     time.sleep(2)
 
     # 5. Traffic sources

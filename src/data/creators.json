@@ -306,89 +306,242 @@
     ],
     "articles": [
       {
-        "id": "177810134",
-        "title": "戰爭陰影下的極端走勢",
-        "publishedAt": "2026-03-31",
-        "reach": 5627,
-        "clicks": 1013,
-        "interactions": 51,
+        "id": "178105277",
+        "title": "《2026.4.13 》期指實戰錄",
+        "publishedAt": "2026-04-14",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 0,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 0,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": []
+      },
+      {
+        "id": "178079904",
+        "title": "為什麼你進場前說「有賺有賠」，進場後卻只想「只賺不賠」？",
+        "publishedAt": "2026-04-13",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 120,
+        "stockTags": [
+          {
+            "code": "3105",
+            "name": ""
+          },
+          {
+            "code": "6147",
+            "name": ""
+          },
+          {
+            "code": "1717",
+            "name": ""
+          },
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 112,
+          "comment": 2,
+          "share": 6,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2099,
+            "percent": 78
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 476,
+            "percent": 18
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 56,
+            "percent": 2
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 35,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 15,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "178055051",
+        "title": "《2026.4.10 期指實戰錄》",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 8,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 8,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 2,
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "id": "178054689",
+        "title": "2026.4.10美股教學案例\nAVGO博通 ",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 4,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 4,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 2,
+            "percent": 67
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 1,
+            "percent": 33
+          }
+        ]
+      },
+      {
+        "id": "178054003",
+        "title": "2026.4.10美股教學\n",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 6,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 4,
+          "comment": 2,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1,
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "id": "178025360",
+        "title": "想要高勝率？你可能正在親手毀掉你的帳戶！",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 142,
         "stockTags": [
           {
             "code": "TWA00",
             "name": ""
           },
           {
-            "code": "1303",
+            "code": "2330",
             "name": ""
           },
           {
-            "code": "1326",
+            "code": "3037",
             "name": ""
           },
           {
-            "code": "1301",
+            "code": "2409",
             "name": ""
           },
           {
-            "code": "1304",
+            "code": "2313",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 44,
-          "comment": 2,
-          "share": 2,
-          "donate": 3
+          "emoji": 120,
+          "comment": 6,
+          "share": 16,
+          "donate": 0
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 2144,
-            "percent": 83
+            "count": 964,
+            "percent": 56
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 313,
-            "percent": 12
+            "count": 615,
+            "percent": 36
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 69,
-            "percent": 3
+            "count": 72,
+            "percent": 4
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 36,
-            "percent": 1
+            "count": 50,
+            "percent": 3
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 19,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 1,
-            "percent": 0
+            "count": 31,
+            "percent": 2
           }
         ]
       },
       {
-        "id": "177834614",
-        "title": "《2026.3.31期指實戰錄》",
-        "publishedAt": "2026-03-31",
-        "reach": 4,
-        "clicks": 1,
-        "interactions": 11,
+        "id": "178022272",
+        "title": "《2026.4.9 期指實戰錄》",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 8,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 11,
+          "emoji": 8,
           "comment": 0,
           "share": 0,
           "donate": 0
@@ -403,16 +556,84 @@
         ]
       },
       {
-        "id": "177806023",
-        "title": "2026.3.30美股教學\nNetflix低接案例說明\n",
-        "publishedAt": "2026-03-30",
-        "reach": 2,
+        "id": "177993209",
+        "title": "戰爭平息，下一步呢？回檔你不敢買，起漲你敢追嗎？",
+        "publishedAt": "2026-04-09",
+        "reach": 0,
         "clicks": 0,
-        "interactions": 15,
+        "interactions": 118,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "6147",
+            "name": ""
+          },
+          {
+            "code": "3037",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 106,
+          "comment": 4,
+          "share": 4,
+          "donate": 4
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2769,
+            "percent": 77
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 700,
+            "percent": 19
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 76,
+            "percent": 2
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 53,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 21,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "177989847",
+        "title": "《2026.4.8 期指實戰錄》",
+        "publishedAt": "2026-04-09",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 10,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 13,
-          "comment": 2,
+          "emoji": 10,
+          "comment": 0,
           "share": 0,
           "donate": 0
         },
@@ -420,210 +641,76 @@
           {
             "source": "other",
             "label": "其他",
-            "count": 1,
+            "count": 3,
             "percent": 100
           }
         ]
       },
       {
-        "id": "177796865",
-        "title": "【2026.3.25 期指實戰錄】",
-        "publishedAt": "2026-03-30",
-        "reach": 6,
-        "clicks": 1,
-        "interactions": 0,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 0,
-          "comment": 0,
-          "share": 0,
-          "donate": 0
-        },
-        "trafficSources": []
-      },
-      {
-        "id": "177796886",
-        "title": "【2026.3.26 期指實戰錄】",
-        "publishedAt": "2026-03-30",
-        "reach": 6,
-        "clicks": 1,
-        "interactions": 0,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 0,
-          "comment": 0,
-          "share": 0,
-          "donate": 0
-        },
-        "trafficSources": []
-      },
-      {
-        "id": "177791084",
-        "title": "【2026.3.23 期指實戰錄】",
-        "publishedAt": "2026-03-30",
-        "reach": 4,
-        "clicks": 1,
-        "interactions": 0,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 0,
-          "comment": 0,
-          "share": 0,
-          "donate": 0
-        },
-        "trafficSources": []
-      },
-      {
-        "id": "177784000",
-        "title": "睡得著，才是真正的贏家！週五美股大跌你又失眠了嗎？",
-        "publishedAt": "2026-03-30",
-        "reach": 4443,
-        "clicks": 800,
-        "interactions": 58,
+        "id": "177960265",
+        "title": "預測戰爭猜行情要崩盤，今天可能要吃重傷了，別猜未來",
+        "publishedAt": "2026-04-08",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 160,
         "stockTags": [
+          {
+            "code": "6147",
+            "name": ""
+          },
           {
             "code": "TWA00",
             "name": ""
           },
           {
-            "code": "2313",
+            "code": "2330",
             "name": ""
           },
           {
-            "code": "2367",
+            "code": "3105",
             "name": ""
           },
           {
-            "code": "3715",
-            "name": ""
-          },
-          {
-            "code": "1785",
+            "code": "3037",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 53,
-          "comment": 1,
-          "share": 2,
+          "emoji": 146,
+          "comment": 6,
+          "share": 6,
           "donate": 2
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 1195,
-            "percent": 70
+            "count": 1352,
+            "percent": 65
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 411,
-            "percent": 24
+            "count": 585,
+            "percent": 28
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 48,
-            "percent": 3
+            "count": 75,
+            "percent": 4
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 39,
+            "count": 45,
             "percent": 2
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 18,
+            "count": 20,
             "percent": 1
-          }
-        ]
-      },
-      {
-        "id": "177796819",
-        "title": "【2026.3.24 期指實戰錄】",
-        "publishedAt": "2026-03-30",
-        "reach": 6,
-        "clicks": 1,
-        "interactions": 1,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 1,
-          "comment": 0,
-          "share": 0,
-          "donate": 0
-        },
-        "trafficSources": []
-      },
-      {
-        "id": "177793120",
-        "title": "超簡單台指期投資法 今晚 19:00 直播",
-        "publishedAt": "2026-03-30",
-        "reach": 1211,
-        "clicks": 218,
-        "interactions": 37,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 36,
-          "comment": 0,
-          "share": 0,
-          "donate": 1
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 221,
-            "percent": 47
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 83,
-            "percent": 18
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 57,
-            "percent": 12
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 56,
-            "percent": 12
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 55,
-            "percent": 12
-          }
-        ]
-      },
-      {
-        "id": "177796947",
-        "title": "【2026.3.27 期指實戰錄】",
-        "publishedAt": "2026-03-30",
-        "reach": 6,
-        "clicks": 1,
-        "interactions": 5,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 5,
-          "comment": 0,
-          "share": 0,
-          "donate": 0
-        },
-        "trafficSources": [
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 3,
-            "percent": 100
           }
         ]
       }
@@ -936,218 +1023,23 @@
     ],
     "articles": [
       {
-        "id": "177817993",
-        "title": "你看完就知道是空還是多，具體分析與做法",
-        "publishedAt": "2026-03-31",
-        "reach": 22477,
-        "clicks": 4046,
-        "interactions": 1028,
+        "id": "178100959",
+        "title": "盤後爆報 (台股世界強)",
+        "publishedAt": "2026-04-13",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 742,
         "stockTags": [
-          {
-            "code": "6770",
-            "name": ""
-          },
-          {
-            "code": "2408",
-            "name": ""
-          },
-          {
-            "code": "2344",
-            "name": ""
-          },
-          {
-            "code": "2337",
-            "name": ""
-          },
-          {
-            "code": "TWA00",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 646,
-          "comment": 63,
-          "share": 137,
-          "donate": 182
-        },
-        "trafficSources": [
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 17262,
-            "percent": 71
-          },
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 5698,
-            "percent": 24
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 602,
-            "percent": 2
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 361,
-            "percent": 1
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 307,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 14,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177801657",
-        "title": "盤後爆報（定價風險再度提高）",
-        "publishedAt": "2026-03-30",
-        "reach": 25113,
-        "clicks": 4520,
-        "interactions": 699,
-        "stockTags": [
-          {
-            "code": "3105",
-            "name": ""
-          },
-          {
-            "code": "6770",
-            "name": ""
-          },
-          {
-            "code": "TWA00",
-            "name": ""
-          },
           {
             "code": "2330",
             "name": ""
           },
           {
-            "code": "5314",
+            "code": "2449",
             "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 449,
-          "comment": 26,
-          "share": 27,
-          "donate": 197
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 7256,
-            "percent": 49
           },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 6594,
-            "percent": 45
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 471,
-            "percent": 3
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 212,
-            "percent": 1
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 143,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 4,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177778609",
-        "title": "先暫訂2030直播 有可能提早 但絕對不會延後",
-        "publishedAt": "2026-03-29",
-        "reach": 6007,
-        "clicks": 1081,
-        "interactions": 342,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 312,
-          "comment": 19,
-          "share": 11,
-          "donate": 0
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 1047,
-            "percent": 46
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 598,
-            "percent": 26
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 388,
-            "percent": 17
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 216,
-            "percent": 10
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 9,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177754453",
-        "title": "小空檔來講vix跟盤後要看什麼，要怎麼使用他",
-        "publishedAt": "2026-03-27",
-        "reach": 24097,
-        "clicks": 4337,
-        "interactions": 891,
-        "stockTags": [
           {
             "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "2408",
-            "name": ""
-          },
-          {
-            "code": "2344",
             "name": ""
           },
           {
@@ -1155,193 +1047,45 @@
             "name": ""
           },
           {
-            "code": "3017",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 528,
-          "comment": 49,
-          "share": 137,
-          "donate": 177
-        },
-        "trafficSources": [
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 13875,
-            "percent": 70
-          },
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 4515,
-            "percent": 23
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 742,
-            "percent": 4
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 466,
-            "percent": 2
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 134,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 7,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177727273",
-        "title": "盤後爆報（繼續修復）",
-        "publishedAt": "2026-03-26",
-        "reach": 24442,
-        "clicks": 4400,
-        "interactions": 649,
-        "stockTags": [
-          {
-            "code": "2408",
-            "name": ""
-          },
-          {
-            "code": "3576",
-            "name": ""
-          },
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "2337",
-            "name": ""
-          },
-          {
-            "code": "2330",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 463,
-          "comment": 41,
-          "share": 24,
-          "donate": 121
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 7400,
-            "percent": 50
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 6409,
-            "percent": 43
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 692,
-            "percent": 5
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 307,
-            "percent": 2
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 108,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 7,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177648462",
-        "title": "盤前爆報（0835直播 ）",
-        "publishedAt": "2026-03-24",
-        "reach": 13897,
-        "clicks": 2501,
-        "interactions": 415,
-        "stockTags": [
-          {
-            "code": "6770",
-            "name": ""
-          },
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "2337",
-            "name": ""
-          },
-          {
-            "code": "2344",
-            "name": ""
-          },
-          {
             "code": "2408",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 343,
-          "comment": 35,
-          "share": 19,
-          "donate": 18
+          "emoji": 618,
+          "comment": 40,
+          "share": 48,
+          "donate": 36
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 3303,
-            "percent": 49
+            "count": 8322,
+            "percent": 56
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 2301,
-            "percent": 34
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 820,
-            "percent": 12
+            "count": 5779,
+            "percent": 39
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 301,
-            "percent": 4
+            "count": 295,
+            "percent": 2
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 67,
+            "count": 279,
+            "percent": 2
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 181,
             "percent": 1
           },
           {
@@ -1353,17 +1097,13 @@
         ]
       },
       {
-        "id": "177614670",
-        "title": "講個200日為什麼很重要好了",
-        "publishedAt": "2026-03-22",
-        "reach": 28202,
-        "clicks": 5076,
-        "interactions": 996,
+        "id": "178075075",
+        "title": "盤後爆報（沒談成）",
+        "publishedAt": "2026-04-12",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 1724,
         "stockTags": [
-          {
-            "code": "2344",
-            "name": ""
-          },
           {
             "code": "2330",
             "name": ""
@@ -1373,151 +1113,193 @@
             "name": ""
           },
           {
-            "code": "2408",
+            "code": "2308",
             "name": ""
           },
           {
-            "code": "0050",
+            "code": "3037",
+            "name": ""
+          },
+          {
+            "code": "2383",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 701,
-          "comment": 57,
-          "share": 84,
-          "donate": 154
+          "emoji": 1230,
+          "comment": 82,
+          "share": 44,
+          "donate": 368
         },
         "trafficSources": [
           {
             "source": "other",
             "label": "其他",
-            "count": 10171,
-            "percent": 60
+            "count": 4198,
+            "percent": 47
           },
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 5166,
-            "percent": 31
+            "count": 3801,
+            "percent": 43
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 1022,
-            "percent": 6
+            "count": 461,
+            "percent": 5
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 393,
-            "percent": 2
+            "count": 274,
+            "percent": 3
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 117,
+            "count": 114,
             "percent": 1
           },
           {
             "source": "news",
             "label": "新聞",
-            "count": 10,
+            "count": 4,
             "percent": 0
           }
         ]
       },
       {
-        "id": "177571999",
-        "title": "盤前爆報（美股味道不對）",
-        "publishedAt": "2026-03-20",
-        "reach": 21707,
-        "clicks": 3907,
-        "interactions": 464,
+        "id": "178065704",
+        "title": "今天是最後一天讓我看看你們怎拉尾盤",
+        "publishedAt": "2026-04-11",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 858,
         "stockTags": [
           {
-            "code": "2337",
+            "code": "TWA00",
             "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 706,
+          "comment": 34,
+          "share": 18,
+          "donate": 100
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2845,
+            "percent": 54
           },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1382,
+            "percent": 26
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 579,
+            "percent": 11
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 448,
+            "percent": 8
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 57,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "178048966",
+        "title": "週日課程跟週三差別在哪？",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 1068,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 640,
+          "comment": 54,
+          "share": 38,
+          "donate": 336
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 3211,
+            "percent": 56
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1564,
+            "percent": 27
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 541,
+            "percent": 9
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 347,
+            "percent": 6
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 83,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "178048786",
+        "title": "盤後爆報（台積電好的出彩）",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 1158,
+        "stockTags": [
           {
             "code": "TWA00",
             "name": ""
           },
           {
             "code": "2330",
-            "name": ""
-          },
-          {
-            "code": "2344",
-            "name": ""
-          },
-          {
-            "code": "2408",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 386,
-          "comment": 21,
-          "share": 20,
-          "donate": 37
-        },
-        "trafficSources": [
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 7952,
-            "percent": 53
-          },
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 5777,
-            "percent": 38
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 966,
-            "percent": 6
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 238,
-            "percent": 2
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 120,
-            "percent": 1
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 3,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177539047",
-        "title": "盤前爆報（市場好變態）",
-        "publishedAt": "2026-03-19",
-        "reach": 21935,
-        "clicks": 3948,
-        "interactions": 630,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "2337",
-            "name": ""
-          },
-          {
-            "code": "6770",
             "name": ""
           },
           {
@@ -1525,99 +1307,360 @@
             "name": ""
           },
           {
-            "code": "2344",
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "3661",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 491,
-          "comment": 33,
-          "share": 44,
-          "donate": 62
+          "emoji": 692,
+          "comment": 64,
+          "share": 40,
+          "donate": 362
         },
         "trafficSources": [
           {
             "source": "other",
             "label": "其他",
-            "count": 9004,
-            "percent": 62
+            "count": 5955,
+            "percent": 63
           },
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 4423,
+            "count": 2890,
             "percent": 30
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 803,
-            "percent": 6
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 206,
-            "percent": 1
+            "count": 326,
+            "percent": 3
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 120,
+            "count": 179,
+            "percent": 2
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 118,
             "percent": 1
           },
           {
             "source": "news",
             "label": "新聞",
-            "count": 13,
+            "count": 9,
             "percent": 0
           }
         ]
       },
       {
-        "id": "177532095",
-        "title": "小編踹到網路線 先來卡位好了",
-        "publishedAt": "2026-03-18",
-        "reach": 2250,
-        "clicks": 405,
-        "interactions": 197,
+        "id": "177983667",
+        "title": "免費直播",
+        "publishedAt": "2026-04-08",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 464,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 183,
-          "comment": 5,
-          "share": 9,
+          "emoji": 410,
+          "comment": 28,
+          "share": 26,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1417,
+            "percent": 60
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 614,
+            "percent": 26
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 245,
+            "percent": 10
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 62,
+            "percent": 3
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 10,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177983033",
+        "title": "盤後爆報（歡慶二十萬訂閱）",
+        "publishedAt": "2026-04-08",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 2210,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "3339",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 1036,
+          "comment": 142,
+          "share": 38,
+          "donate": 994
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 5913,
+            "percent": 50
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4936,
+            "percent": 42
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 553,
+            "percent": 5
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 215,
+            "percent": 2
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 187,
+            "percent": 2
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 4,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177960834",
+        "title": "盤前爆報（睡一覺又奇蹟了）",
+        "publishedAt": "2026-04-08",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 760,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "3037",
+            "name": ""
+          },
+          {
+            "code": "8046",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "3189",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 608,
+          "comment": 48,
+          "share": 36,
+          "donate": 68
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 6636,
+            "percent": 60
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 3747,
+            "percent": 34
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 288,
+            "percent": 3
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 177,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 147,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 2,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177949793",
+        "title": "晚上不直播 我要躺在那邊當一塊爛肉",
+        "publishedAt": "2026-04-07",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 652,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 614,
+          "comment": 26,
+          "share": 12,
           "donate": 0
         },
         "trafficSources": [
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 620,
-            "percent": 45
+            "count": 390,
+            "percent": 46
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 324,
-            "percent": 24
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 250,
-            "percent": 18
+            "count": 216,
+            "percent": 25
           },
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 145,
-            "percent": 11
+            "count": 173,
+            "percent": 20
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 65,
+            "percent": 8
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 28,
-            "percent": 2
+            "count": 10,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177932894",
+        "title": "盤前爆報（0840直播）",
+        "publishedAt": "2026-04-07",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 810,
+        "stockTags": [
+          {
+            "code": "0050",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 616,
+          "comment": 44,
+          "share": 8,
+          "donate": 142
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2422,
+            "percent": 54
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1377,
+            "percent": 31
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 434,
+            "percent": 10
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 210,
+            "percent": 5
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 24,
+            "percent": 1
           }
         ]
       }
@@ -1930,380 +1973,138 @@
     ],
     "articles": [
       {
-        "id": "177828650",
-        "title": "台指期保證金炸裂❤️",
-        "publishedAt": "2026-03-31",
-        "reach": 7494,
-        "clicks": 1349,
-        "interactions": 535,
+        "id": "178101494",
+        "title": "完全新手班免費講座❤️參加資格先加入「快閃群」了解詳情",
+        "publishedAt": "2026-04-13",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 678,
         "stockTags": [
           {
             "code": "TWA00",
             "name": ""
           },
           {
-            "code": "00715L",
+            "code": "3491",
             "name": ""
           },
           {
-            "code": "00635U",
+            "code": "4526",
             "name": ""
           },
           {
-            "code": "2330",
+            "code": "5443",
+            "name": ""
+          },
+          {
+            "code": "2308",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 390,
-          "comment": 52,
-          "share": 8,
-          "donate": 85
+          "emoji": 540,
+          "comment": 80,
+          "share": 10,
+          "donate": 48
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 3230,
-            "percent": 80
+            "count": 5005,
+            "percent": 79
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 420,
-            "percent": 10
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 235,
-            "percent": 6
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 102,
-            "percent": 3
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 31,
-            "percent": 1
-          }
-        ]
-      },
-      {
-        "id": "177830948",
-        "title": "黃復健師發功中❤️軟掉的話我概不負責喔~",
-        "publishedAt": "2026-03-31",
-        "reach": 5508,
-        "clicks": 991,
-        "interactions": 528,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 439,
-          "comment": 55,
-          "share": 6,
-          "donate": 28
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 2687,
-            "percent": 78
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 324,
-            "percent": 9
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 247,
-            "percent": 7
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 166,
-            "percent": 5
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 15,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177810229",
-        "title": "等一人咖啡沒來❤️你何不主動出擊",
-        "publishedAt": "2026-03-31",
-        "reach": 6159,
-        "clicks": 1109,
-        "interactions": 471,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "8358",
-            "name": ""
-          },
-          {
-            "code": "2301",
-            "name": ""
-          },
-          {
-            "code": "2408",
-            "name": ""
-          },
-          {
-            "code": "6505",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 386,
-          "comment": 56,
-          "share": 5,
-          "donate": 24
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 2530,
-            "percent": 78
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 356,
+            "count": 678,
             "percent": 11
           },
           {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 179,
-            "percent": 6
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 141,
-            "percent": 4
-          },
-          {
             "source": "search",
             "label": "搜尋",
-            "count": 26,
-            "percent": 1
-          }
-        ]
-      },
-      {
-        "id": "177811276",
-        "title": "川川在演川劇變臉❤️",
-        "publishedAt": "2026-03-31",
-        "reach": 3250,
-        "clicks": 585,
-        "interactions": 414,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 328,
-          "comment": 44,
-          "share": 10,
-          "donate": 32
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 1178,
-            "percent": 67
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 227,
-            "percent": 13
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 217,
-            "percent": 12
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 128,
-            "percent": 7
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 8,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177817586",
-        "title": "富士山奇觀❤️復盤今天語音直播講解的個股",
-        "publishedAt": "2026-03-31",
-        "reach": 9994,
-        "clicks": 1799,
-        "interactions": 455,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "4906",
-            "name": ""
-          },
-          {
-            "code": "8358",
-            "name": ""
-          },
-          {
-            "code": "2408",
-            "name": ""
-          },
-          {
-            "code": "00715L",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 374,
-          "comment": 44,
-          "share": 7,
-          "donate": 30
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 4160,
-            "percent": 81
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 405,
-            "percent": 8
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 248,
+            "count": 284,
             "percent": 5
           },
           {
-            "source": "search",
-            "label": "搜尋",
-            "count": 162,
-            "percent": 3
-          },
-          {
             "source": "following",
             "label": "追蹤動態",
-            "count": 135,
+            "count": 216,
             "percent": 3
           },
           {
-            "source": "news",
-            "label": "新聞",
-            "count": 1,
-            "percent": 0
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 122,
+            "percent": 2
           }
         ]
       },
       {
-        "id": "177784337",
-        "title": "加密小那浴巾下墜❤️台指續開低機率大增，先觀察再考慮動作",
-        "publishedAt": "2026-03-30",
-        "reach": 6196,
-        "clicks": 1115,
-        "interactions": 604,
+        "id": "178090867",
+        "title": "驗證新式型態學的實力❤️還不加入免費快閃裙那我也幫不了你",
+        "publishedAt": "2026-04-13",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 776,
         "stockTags": [
           {
             "code": "TWA00",
             "name": ""
           },
           {
-            "code": "2330",
+            "code": "3587",
             "name": ""
           },
           {
-            "code": "2618",
+            "code": "3044",
             "name": ""
           },
           {
-            "code": "2382",
+            "code": "1802",
             "name": ""
           },
           {
-            "code": "00715L",
+            "code": "1785",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 426,
-          "comment": 63,
-          "share": 13,
-          "donate": 102
+          "emoji": 622,
+          "comment": 90,
+          "share": 14,
+          "donate": 50
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 1938,
-            "percent": 69
+            "count": 4529,
+            "percent": 68
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 381,
-            "percent": 14
+            "count": 1531,
+            "percent": 23
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 245,
-            "percent": 9
+            "count": 225,
+            "percent": 3
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 212,
-            "percent": 8
+            "count": 178,
+            "percent": 3
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 24,
-            "percent": 1
+            "count": 171,
+            "percent": 3
           },
           {
             "source": "news",
@@ -2314,174 +2115,281 @@
         ]
       },
       {
-        "id": "177801691",
-        "title": "今晚鮑爺爺談話❤️等不及黃復健師今天就先按摩了一回",
-        "publishedAt": "2026-03-30",
-        "reach": 11083,
-        "clicks": 1995,
-        "interactions": 489,
+        "id": "178080218",
+        "title": "昨天提到的談判破裂目前稍有影響❤️新手觀望，要做只能短做",
+        "publishedAt": "2026-04-13",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 1514,
         "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "2303",
+            "name": ""
+          },
+          {
+            "code": "2454",
+            "name": ""
+          },
+          {
+            "code": "2317",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 1120,
+          "comment": 168,
+          "share": 24,
+          "donate": 202
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4725,
+            "percent": 61
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 2438,
+            "percent": 32
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 289,
+            "percent": 4
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 209,
+            "percent": 3
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 57,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 2,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "178074958",
+        "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（下集）",
+        "publishedAt": "2026-04-12",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 952,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "3450",
+            "name": ""
+          },
+          {
+            "code": "3105",
+            "name": ""
+          },
+          {
+            "code": "2492",
+            "name": ""
+          },
+          {
+            "code": "1785",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 786,
+          "comment": 98,
+          "share": 20,
+          "donate": 48
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2285,
+            "percent": 66
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 552,
+            "percent": 16
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 412,
+            "percent": 12
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 203,
+            "percent": 6
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 26,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 2,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "178074070",
+        "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（中集）",
+        "publishedAt": "2026-04-12",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 878,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "00662",
+            "name": ""
+          },
+          {
+            "code": "00679B",
+            "name": ""
+          },
+          {
+            "code": "00635U",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 728,
+          "comment": 108,
+          "share": 16,
+          "donate": 26
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 3546,
+            "percent": 78
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 552,
+            "percent": 12
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 313,
+            "percent": 7
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 103,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 35,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "178071791",
+        "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（上集）",
+        "publishedAt": "2026-04-12",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 804,
+        "stockTags": [
+          {
+            "code": "00635U",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "00642U",
+            "name": ""
+          },
           {
             "code": "TWA00",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 427,
-          "comment": 40,
-          "share": 6,
-          "donate": 16
+          "emoji": 660,
+          "comment": 88,
+          "share": 12,
+          "donate": 44
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 5018,
-            "percent": 83
+            "count": 2890,
+            "percent": 81
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 460,
-            "percent": 8
+            "count": 354,
+            "percent": 10
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 294,
+            "count": 192,
             "percent": 5
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 212,
-            "percent": 4
+            "count": 105,
+            "percent": 3
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 29,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177792131",
-        "title": "盤點一下新式型態學的威力❤️漲停連連",
-        "publishedAt": "2026-03-30",
-        "reach": 8506,
-        "clicks": 1531,
-        "interactions": 328,
-        "stockTags": [
-          {
-            "code": "TWA00",
-            "name": ""
-          },
-          {
-            "code": "1305",
-            "name": ""
-          },
-          {
-            "code": "5243",
-            "name": ""
-          },
-          {
-            "code": "1309",
-            "name": ""
-          },
-          {
-            "code": "1905",
-            "name": ""
-          }
-        ],
-        "engagementBreakdown": {
-          "emoji": 274,
-          "comment": 34,
-          "share": 7,
-          "donate": 13
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 4037,
-            "percent": 82
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 291,
-            "percent": 6
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 285,
-            "percent": 6
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 183,
-            "percent": 4
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 114,
-            "percent": 2
-          },
-          {
-            "source": "news",
-            "label": "新聞",
-            "count": 5,
-            "percent": 0
-          }
-        ]
-      },
-      {
-        "id": "177781379",
-        "title": "誰說「女生的不可能三角」不會發生❤️",
-        "publishedAt": "2026-03-29",
-        "reach": 2223,
-        "clicks": 400,
-        "interactions": 460,
-        "stockTags": [],
-        "engagementBreakdown": {
-          "emoji": 392,
-          "comment": 43,
-          "share": 12,
-          "donate": 13
-        },
-        "trafficSources": [
-          {
-            "source": "recommend",
-            "label": "推薦動態",
-            "count": 318,
-            "percent": 28
-          },
-          {
-            "source": "profile",
-            "label": "個人主頁",
-            "count": 301,
-            "percent": 27
-          },
-          {
-            "source": "following",
-            "label": "追蹤動態",
-            "count": 257,
-            "percent": 23
-          },
-          {
-            "source": "other",
-            "label": "其他",
-            "count": 248,
-            "percent": 22
-          },
-          {
-            "source": "search",
-            "label": "搜尋",
-            "count": 10,
+            "count": 30,
             "percent": 1
           },
           {
@@ -2493,76 +2401,242 @@
         ]
       },
       {
-        "id": "177779503",
-        "title": "《莎拉的型態學教室》❤️熱門股解析--鴻海、華邦電、南亞科",
-        "publishedAt": "2026-03-29",
-        "reach": 12315,
-        "clicks": 2217,
-        "interactions": 514,
+        "id": "178069464",
+        "title": "即日起推動「新式型態學運動」❤️",
+        "publishedAt": "2026-04-12",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 1322,
         "stockTags": [
           {
             "code": "TWA00",
             "name": ""
           },
           {
-            "code": "2317",
+            "code": "0050",
             "name": ""
           },
           {
-            "code": "2344",
+            "code": "00715L",
             "name": ""
           },
           {
-            "code": "2382",
+            "code": "2330",
             "name": ""
           },
           {
-            "code": "2313",
+            "code": "00687B",
             "name": ""
           }
         ],
         "engagementBreakdown": {
-          "emoji": 402,
-          "comment": 62,
-          "share": 8,
-          "donate": 42
+          "emoji": 910,
+          "comment": 110,
+          "share": 18,
+          "donate": 284
         },
         "trafficSources": [
           {
             "source": "recommend",
             "label": "推薦動態",
-            "count": 2419,
-            "percent": 63
+            "count": 3428,
+            "percent": 82
           },
           {
             "source": "other",
             "label": "其他",
-            "count": 694,
-            "percent": 18
+            "count": 342,
+            "percent": 8
           },
           {
             "source": "profile",
             "label": "個人主頁",
-            "count": 395,
-            "percent": 10
+            "count": 167,
+            "percent": 4
           },
           {
             "source": "following",
             "label": "追蹤動態",
-            "count": 212,
+            "count": 164,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 65,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "id": "178063913",
+        "title": "新式型態學劃線家教班台中場大成功❤️",
+        "publishedAt": "2026-04-11",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 962,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 808,
+          "comment": 98,
+          "share": 16,
+          "donate": 40
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2637,
+            "percent": 76
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 299,
+            "percent": 9
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 242,
+            "percent": 7
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 201,
             "percent": 6
           },
           {
             "source": "search",
             "label": "搜尋",
-            "count": 106,
-            "percent": 3
+            "count": 72,
+            "percent": 2
+          }
+        ]
+      },
+      {
+        "id": "178060162",
+        "title": "莎拉的週末心情分享❤️加入免費快閃群一起找到滿足成就感的來源",
+        "publishedAt": "2026-04-11",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 870,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 690,
+          "comment": 120,
+          "share": 20,
+          "donate": 40
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2585,
+            "percent": 76
           },
           {
-            "source": "news",
-            "label": "新聞",
-            "count": 4,
-            "percent": 0
+            "source": "other",
+            "label": "其他",
+            "count": 401,
+            "percent": 12
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 206,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 184,
+            "percent": 5
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 34,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "178052119",
+        "title": "莎拉的週末持股提問又來囉❤️本週日會在免費快閃群內做語音直播",
+        "publishedAt": "2026-04-10",
+        "reach": 0,
+        "clicks": 0,
+        "interactions": 796,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "1815",
+            "name": ""
+          },
+          {
+            "code": "2367",
+            "name": ""
+          },
+          {
+            "code": "3714",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 598,
+          "comment": 154,
+          "share": 14,
+          "donate": 30
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4174,
+            "percent": 80
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 496,
+            "percent": 10
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 284,
+            "percent": 5
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 223,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 32,
+            "percent": 1
           }
         ]
       }
