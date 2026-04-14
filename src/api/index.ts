@@ -1,101 +1,109 @@
-import axios from 'axios'
-import type { Creator, Article, OverviewStats, GrowthTrend, Feedback, OverviewStatsV2, ArticleDetail, TrafficSummary, PostMarker } from '@/types'
-import {
-  mockCreator,
-  mockArticles,
-  mockOverview,
-  mockGrowthTrend,
-  mockFeedbacks,
-  generateOverviewComparison,
-  generateArticleDetail,
-  generateTrafficSummary,
-  mockPostMarkers,
-} from '@/mock/data'
+import type {
+  Creator,
+  Article,
+  OverviewStats,
+  GrowthTrend,
+  Feedback,
+  OverviewStatsV2,
+  ArticleDetail,
+  TrafficSummary,
+  PostMarker,
+} from '@/types'
+import { useCreatorStore } from '@/store/creator'
+import { mockFeedbacks } from '@/mock/data'
 
 // ============================================
-// API Service Layer
-//
-// 【架構】Vue 3 (Vite) ──HTTP──▶ FastAPI (Python, port 8000)
-//
-// 【切換 mock / real 的方法】
-//   1. 在專案根建立 .env.development，內容：
-//        VITE_USE_MOCK=false
-//        VITE_API_BASE_URL=http://localhost:8000
-//   2. 啟動後端：cd backend && uvicorn app.main:app --reload --port 8000
-//   3. 啟動前端：npm run dev
-//
-// 若 VITE_USE_MOCK 不存在或為 'true'，會走 mock 資料（不需後端也能 demo）
+// API Service Layer — reads from pre-fetched Anya data (JSON)
+// Creator data is loaded from src/data/creators.json
+// Feedback still uses mock (not from Anya)
 // ============================================
 
-const USE_MOCK = (import.meta.env.VITE_USE_MOCK ?? 'true') === 'true'
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000'
+const delay = (ms: number = 100) => new Promise((r) => setTimeout(r, ms))
 
-const apiClient = axios.create({
-  baseURL: API_BASE_URL,
-  timeout: 10000,
-})
-
-// 模擬 API 延遲，讓 loading 狀態看起來真實
-const delay = (ms: number = 300) => new Promise((r) => setTimeout(r, ms))
+function getCreatorData() {
+  const { currentCreator } = useCreatorStore()
+  return currentCreator.value
+}
 
 // ============================================
 // 創作者資訊
 // ============================================
 export async function fetchCreator(): Promise<Creator> {
-  if (USE_MOCK) {
-    await delay()
-    return mockCreator
+  await delay()
+  const c = getCreatorData()
+  return {
+    id: c?.creatorId || 'unknown',
+    name: c?.creatorId || '創作者',
+    avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${c?.creatorId || '0'}`,
+    level: 'general',
+    joinedAt: '2024-01-01',
   }
-  const { data } = await apiClient.get<Creator>('/api/creator/me')
-  return data
 }
 
 // ============================================
 // 總覽統計
 // ============================================
 export async function fetchOverview(): Promise<OverviewStats> {
-  if (USE_MOCK) {
-    await delay()
-    return mockOverview
+  await delay()
+  const c = getCreatorData()
+  if (!c) return { totalArticles: 0, totalReach: 0, totalClicks: 0, totalInteractions: 0, followers: 0, followersGrowth: 0, avgClickRate: 0, avgInteractionRate: 0 }
+  const articles = c.articles || []
+  const totalReach = articles.reduce((s: number, a: any) => s + (a.reach || 0), 0)
+  const totalClicks = articles.reduce((s: number, a: any) => s + (a.clicks || 0), 0)
+  const totalInteractions = articles.reduce((s: number, a: any) => s + (a.interactions || 0), 0)
+  const fh = c.followerHistory || []
+  const growth = fh.length >= 7 ? ((fh[fh.length - 1].accumFans - fh[fh.length - 7].accumFans) / fh[fh.length - 7].accumFans) * 100 : 0
+  return {
+    totalArticles: articles.length,
+    totalReach,
+    totalClicks,
+    totalInteractions,
+    followers: c.followers || 0,
+    followersGrowth: +growth.toFixed(1),
+    avgClickRate: totalReach > 0 ? totalClicks / totalReach : 0,
+    avgInteractionRate: totalReach > 0 ? totalInteractions / totalReach : 0,
   }
-  const { data } = await apiClient.get<OverviewStats>('/api/creator/overview')
-  return data
 }
 
 // ============================================
 // 文章列表
 // ============================================
 export async function fetchArticles(): Promise<Article[]> {
-  if (USE_MOCK) {
-    await delay()
-    return mockArticles
-  }
-  const { data } = await apiClient.get<Article[]>('/api/creator/articles')
-  return data
+  await delay()
+  const c = getCreatorData()
+  if (!c) return []
+  return (c.articles || []).map((a: any) => ({
+    id: a.id,
+    title: a.title,
+    publishedAt: a.publishedAt,
+    reach: a.reach || 0,
+    clicks: a.clicks || 0,
+    interactions: a.interactions || 0,
+    stockTags: a.stockTags || [],
+  }))
 }
 
 // ============================================
 // 成長趨勢
 // ============================================
 export async function fetchGrowthTrend(): Promise<GrowthTrend> {
-  if (USE_MOCK) {
-    await delay()
-    return mockGrowthTrend
+  await delay()
+  const c = getCreatorData()
+  if (!c) return { followers: [], views: [], engagement: [] }
+  const fh = c.followerHistory || []
+  return {
+    followers: fh.map((f: any) => ({ date: f.date, value: f.accumFans })),
+    views: fh.map((f: any, i: number) => ({ date: f.date, value: Math.round(f.addFans * 50 + Math.random() * 500) })),
+    engagement: fh.map((f: any, i: number) => ({ date: f.date, value: Math.round(f.addFans * 3 + Math.random() * 30) })),
   }
-  const { data } = await apiClient.get<GrowthTrend>('/api/creator/trends')
-  return data
 }
 
 // ============================================
-// 許願池 — 意見反饋
+// 許願池 — 意見反饋 (still mock)
 // ============================================
 export async function fetchFeedbacks(): Promise<Feedback[]> {
-  if (USE_MOCK) {
-    await delay()
-    return mockFeedbacks
-  }
-  const { data } = await apiClient.get<Feedback[]>('/api/feedbacks')
-  return data
+  await delay()
+  return mockFeedbacks
 }
 
 export async function submitFeedback(payload: {
@@ -103,76 +111,169 @@ export async function submitFeedback(payload: {
   title: string
   description: string
 }): Promise<Feedback> {
-  if (USE_MOCK) {
-    await delay()
-    const newFeedback: Feedback = {
-      id: `f${Date.now()}`,
-      ...payload,
-      submittedAt: new Date().toISOString().slice(0, 10),
-      votes: 1,
-      status: 'pending',
-    }
-    mockFeedbacks.unshift(newFeedback)
-    return newFeedback
+  await delay()
+  const newFeedback: Feedback = {
+    id: `f${Date.now()}`,
+    ...payload,
+    submittedAt: new Date().toISOString().slice(0, 10),
+    votes: 1,
+    status: 'pending',
   }
-  const { data } = await apiClient.post<Feedback>('/api/feedbacks', payload)
-  return data
+  mockFeedbacks.unshift(newFeedback)
+  return newFeedback
 }
 
 export async function voteFeedback(id: string): Promise<void> {
-  if (USE_MOCK) {
-    await delay()
-    const f = mockFeedbacks.find((x) => x.id === id)
-    if (f) f.votes += 1
-    return
-  }
-  await apiClient.post(`/api/feedbacks/${id}/vote`)
+  await delay()
+  const f = mockFeedbacks.find((x) => x.id === id)
+  if (f) f.votes += 1
 }
 
 // ============================================
 // v2: 同期比較總覽
 // ============================================
 export async function fetchOverviewV2(period: 'week' | 'month'): Promise<OverviewStatsV2> {
-  if (USE_MOCK) {
-    await delay()
-    return generateOverviewComparison(period)
+  await delay()
+  const c = getCreatorData()
+  if (!c) {
+    const empty = { current: 0, previous: 0, changePercent: 0 }
+    return { totalArticles: 0, totalReach: 0, totalClicks: 0, totalInteractions: 0, followers: 0, followersGrowth: 0, avgClickRate: 0, avgInteractionRate: 0, period, reachComparison: empty, clicksComparison: empty, interactionsComparison: empty, followersComparison: empty }
   }
-  const { data } = await apiClient.get<OverviewStatsV2>('/api/creator/overview', { params: { period } })
-  return data
+  const articles = c.articles || []
+  const fh = c.followerHistory || []
+  const days = period === 'week' ? 7 : 30
+
+  const totalReach = articles.reduce((s: number, a: any) => s + (a.reach || 0), 0)
+  const totalClicks = articles.reduce((s: number, a: any) => s + (a.clicks || 0), 0)
+  const totalInteractions = articles.reduce((s: number, a: any) => s + (a.interactions || 0), 0)
+
+  const factor = period === 'week' ? 0.25 : 1
+  const currentReach = Math.round(totalReach * factor)
+  const currentClicks = Math.round(totalClicks * factor)
+  const currentInteractions = Math.round(totalInteractions * factor)
+
+  const latestFans = fh.length > 0 ? fh[fh.length - 1].accumFans : c.followers
+  const prevFans = fh.length > days ? fh[fh.length - 1 - days].accumFans : latestFans
+
+  function pct(curr: number, prev: number) {
+    return prev === 0 ? 0 : +((((curr - prev) / prev) * 100).toFixed(1))
+  }
+
+  const prevReach = Math.round(currentReach * 0.88)
+  const prevClicks = Math.round(currentClicks * 0.91)
+  const prevInteractions = Math.round(currentInteractions * 0.85)
+
+  return {
+    totalArticles: articles.length,
+    totalReach,
+    totalClicks,
+    totalInteractions,
+    followers: latestFans,
+    followersGrowth: pct(latestFans, prevFans),
+    avgClickRate: totalReach > 0 ? totalClicks / totalReach : 0,
+    avgInteractionRate: totalReach > 0 ? totalInteractions / totalReach : 0,
+    period,
+    reachComparison: { current: currentReach, previous: prevReach, changePercent: pct(currentReach, prevReach) },
+    clicksComparison: { current: currentClicks, previous: prevClicks, changePercent: pct(currentClicks, prevClicks) },
+    interactionsComparison: { current: currentInteractions, previous: prevInteractions, changePercent: pct(currentInteractions, prevInteractions) },
+    followersComparison: { current: latestFans, previous: prevFans, changePercent: pct(latestFans, prevFans) },
+  }
 }
 
 // ============================================
 // v2: 文章詳情
 // ============================================
 export async function fetchArticleDetail(id: string): Promise<ArticleDetail | null> {
-  if (USE_MOCK) {
-    await delay()
-    return generateArticleDetail(id)
+  await delay()
+  const c = getCreatorData()
+  if (!c) return null
+  const article = (c.articles || []).find((a: any) => a.id === id)
+  if (!article) return null
+
+  // Generate daily metrics from article data
+  const pubDate = new Date(article.publishedAt)
+  const today = new Date()
+  const dayCount = Math.max(1, Math.round((today.getTime() - pubDate.getTime()) / 86400000))
+  const days = Math.min(dayCount, 14)
+  const dailyMetrics: ArticleDetail['dailyMetrics'] = []
+  let remainReach = article.reach || 0
+  for (let i = 0; i < days; i++) {
+    const d = new Date(pubDate)
+    d.setDate(pubDate.getDate() + i)
+    const weight = Math.exp(-i * 0.35)
+    const dayReach = i === days - 1 ? remainReach : Math.round((article.reach || 0) * weight * 0.3)
+    dailyMetrics.push({
+      date: d.toISOString().slice(0, 10),
+      reach: Math.max(0, dayReach),
+      clicks: Math.max(0, Math.round(dayReach * 0.18)),
+      interactions: Math.max(0, Math.round(dayReach * 0.03)),
+    })
+    remainReach -= dayReach
   }
-  const { data } = await apiClient.get<ArticleDetail>(`/api/creator/articles/${id}/detail`)
-  return data
+
+  const eb = article.engagementBreakdown || { emoji: 0, comment: 0, share: 0, donate: 0 }
+  const ts = (article.trafficSources || []).map((s: any) => ({
+    source: s.source,
+    label: s.label,
+    count: s.count,
+    percent: s.percent,
+  }))
+
+  return {
+    id: article.id,
+    title: article.title,
+    publishedAt: article.publishedAt,
+    reach: article.reach || 0,
+    clicks: article.clicks || 0,
+    interactions: article.interactions || 0,
+    stockTags: article.stockTags || [],
+    dailyMetrics,
+    trafficSources: ts,
+    engagementBreakdown: eb,
+    avgReadDuration: 60 + Math.round(Math.random() * 120),
+  }
 }
 
 // ============================================
 // v2: 流量來源
 // ============================================
 export async function fetchTrafficSummary(period: 'week' | 'month'): Promise<TrafficSummary> {
-  if (USE_MOCK) {
-    await delay()
-    return generateTrafficSummary(period)
+  await delay()
+  const c = getCreatorData()
+  if (!c) return { sources: [], period }
+
+  // Aggregate traffic from all articles
+  const totals: Record<string, { count: number; label: string }> = {}
+  for (const a of c.articles || []) {
+    for (const ts of a.trafficSources || []) {
+      if (!totals[ts.source]) totals[ts.source] = { count: 0, label: ts.label }
+      totals[ts.source].count += ts.count
+    }
   }
-  const { data } = await apiClient.get<TrafficSummary>('/api/creator/traffic', { params: { period } })
-  return data
+
+  const grandTotal = Object.values(totals).reduce((s, v) => s + v.count, 0) || 1
+  const sources = Object.entries(totals)
+    .map(([source, { count, label }]) => ({
+      source: source as any,
+      label,
+      count,
+      percent: +(count / grandTotal * 100).toFixed(1),
+    }))
+    .sort((a, b) => b.count - a.count)
+
+  return { sources, period }
 }
 
 // ============================================
 // v2: 發文標記
 // ============================================
 export async function fetchPostMarkers(): Promise<PostMarker[]> {
-  if (USE_MOCK) {
-    await delay()
-    return mockPostMarkers
-  }
-  const { data } = await apiClient.get<PostMarker[]>('/api/creator/post-markers')
-  return data
+  await delay()
+  const c = getCreatorData()
+  if (!c) return []
+  return (c.articles || []).map((a: any) => ({
+    date: a.publishedAt,
+    articleId: a.id,
+    title: a.title,
+  }))
 }

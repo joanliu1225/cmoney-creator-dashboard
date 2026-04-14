@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { fetchOverviewV2, fetchGrowthTrend, fetchArticles, fetchTrafficSummary, fetchPostMarkers } from '@/api'
+import { useCreatorStore } from '@/store/creator'
 import type { OverviewStatsV2, GrowthTrend, Article, TrafficSummary, PostMarker } from '@/types'
 import VChart from 'vue-echarts'
 import { InfoFilled } from '@element-plus/icons-vue'
@@ -30,6 +31,7 @@ use([
 ])
 
 const router = useRouter()
+const { currentCreatorId } = useCreatorStore()
 
 const overview = ref<OverviewStatsV2 | null>(null)
 const trend = ref<GrowthTrend | null>(null)
@@ -59,6 +61,7 @@ async function loadData() {
 }
 
 onMounted(loadData)
+watch(currentCreatorId, loadData)
 
 // 切換 period 時重新載入
 async function switchPeriod(p: 'week' | 'month') {

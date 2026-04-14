@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { fetchArticleDetail } from '@/api'
+import { useCreatorStore } from '@/store/creator'
 import type { ArticleDetail } from '@/types'
 import VChart from 'vue-echarts'
 import { use } from 'echarts/core'
@@ -18,6 +19,7 @@ use([CanvasRenderer, LineChart, PieChart, BarChart, FunnelChart, GridComponent, 
 
 const route = useRoute()
 const router = useRouter()
+const { currentCreatorId } = useCreatorStore()
 const detail = ref<ArticleDetail | null>(null)
 const loading = ref(true)
 
@@ -25,6 +27,11 @@ onMounted(async () => {
   const id = route.params.id as string
   detail.value = await fetchArticleDetail(id)
   loading.value = false
+})
+
+// When creator changes, article IDs are different — go back to articles list
+watch(currentCreatorId, () => {
+  router.push('/articles')
 })
 
 const formatNum = (n: number) => n.toLocaleString('zh-TW')

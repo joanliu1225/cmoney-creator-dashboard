@@ -1,21 +1,27 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { fetchArticles } from '@/api'
+import { useCreatorStore } from '@/store/creator'
 import type { Article } from '@/types'
 import { InfoFilled, Promotion } from '@element-plus/icons-vue'
 
 const router = useRouter()
+const { currentCreatorId } = useCreatorStore()
 
 const articles = ref<Article[]>([])
 const loading = ref(true)
 const sortBy = ref<'reach' | 'clickRate' | 'interactionRate' | 'dailyReach'>('clickRate')
 const timeRange = ref<'7' | '30' | '90' | 'all'>('30')
 
-onMounted(async () => {
+async function loadData() {
+  loading.value = true
   articles.value = await fetchArticles()
   loading.value = false
-})
+}
+
+onMounted(loadData)
+watch(currentCreatorId, loadData)
 
 // 計算發佈至今的天數（數值）
 const TODAY = new Date('2026-04-07')

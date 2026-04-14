@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { fetchGrowthTrend, fetchPostMarkers } from '@/api'
+import { useCreatorStore } from '@/store/creator'
 import type { GrowthTrend, PostMarker } from '@/types'
 import VChart from 'vue-echarts'
 import { use } from 'echarts/core'
@@ -16,17 +17,23 @@ import {
 
 use([CanvasRenderer, LineChart, GridComponent, TooltipComponent, LegendComponent, TitleComponent, MarkLineComponent])
 
+const { currentCreatorId } = useCreatorStore()
+
 const trend = ref<GrowthTrend | null>(null)
 const markers = ref<PostMarker[]>([])
 const loading = ref(true)
 const range = ref<'7d' | '30d'>('30d')
 
-onMounted(async () => {
+async function loadData() {
+  loading.value = true
   const [t, m] = await Promise.all([fetchGrowthTrend(), fetchPostMarkers()])
   trend.value = t
   markers.value = m
   loading.value = false
-})
+}
+
+onMounted(loadData)
+watch(currentCreatorId, loadData)
 
 const filteredTrend = computed(() => {
   if (!trend.value) return null

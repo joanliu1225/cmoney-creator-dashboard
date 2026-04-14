@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { fetchCreator } from '@/api'
+import { useCreatorStore } from '@/store/creator'
 import type { Creator } from '@/types'
 
 // 許願池 Google 表單連結（未來換成真實連結）
@@ -13,6 +14,7 @@ const openFeedbackForm = () => {
 
 const route = useRoute()
 const creator = ref<Creator | null>(null)
+const { allCreatorIds, currentCreatorId, setCreator } = useCreatorStore()
 
 const activeMenu = computed(() => {
   const path = route.path
@@ -26,9 +28,13 @@ const levelMap = {
   columnist: { label: '專欄作家', color: '#E6A23C' },
 }
 
-onMounted(async () => {
+async function loadCreator() {
   creator.value = await fetchCreator()
-})
+}
+
+onMounted(loadCreator)
+
+watch(currentCreatorId, loadCreator)
 </script>
 
 <template>
@@ -37,6 +43,22 @@ onMounted(async () => {
       <div class="logo">
         <span class="logo-icon">📊</span>
         <span class="logo-text">創作者後台</span>
+      </div>
+
+      <div class="creator-selector">
+        <el-select
+          :model-value="currentCreatorId"
+          @update:model-value="setCreator"
+          size="small"
+          style="width: 100%"
+        >
+          <el-option
+            v-for="id in allCreatorIds"
+            :key="id"
+            :label="'ID: ' + id"
+            :value="id"
+          />
+        </el-select>
       </div>
 
       <el-menu
@@ -129,6 +151,17 @@ export default { name: 'MainLayout' }
 
 .logo-icon {
   font-size: 24px;
+}
+
+.creator-selector {
+  padding: 12px 16px;
+  border-bottom: 1px solid #374151;
+}
+
+.creator-selector :deep(.el-select) {
+  --el-select-bg-color: #374151;
+  --el-select-border-color: #4b5563;
+  --el-select-input-color: #d1d5db;
 }
 
 .menu {

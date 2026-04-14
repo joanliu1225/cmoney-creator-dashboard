@@ -1,0 +1,2571 @@
+{
+  "29475": {
+    "creatorId": "29475",
+    "followers": 68794,
+    "followerHistory": [
+      {
+        "date": "2026-02-13",
+        "addFans": 47,
+        "accumFans": 63923
+      },
+      {
+        "date": "2026-02-14",
+        "addFans": 37,
+        "accumFans": 63960
+      },
+      {
+        "date": "2026-02-15",
+        "addFans": 21,
+        "accumFans": 63981
+      },
+      {
+        "date": "2026-02-16",
+        "addFans": 29,
+        "accumFans": 64010
+      },
+      {
+        "date": "2026-02-17",
+        "addFans": 23,
+        "accumFans": 64033
+      },
+      {
+        "date": "2026-02-18",
+        "addFans": 20,
+        "accumFans": 64053
+      },
+      {
+        "date": "2026-02-19",
+        "addFans": 35,
+        "accumFans": 64088
+      },
+      {
+        "date": "2026-02-20",
+        "addFans": 24,
+        "accumFans": 64112
+      },
+      {
+        "date": "2026-02-21",
+        "addFans": 37,
+        "accumFans": 64149
+      },
+      {
+        "date": "2026-02-22",
+        "addFans": 42,
+        "accumFans": 64191
+      },
+      {
+        "date": "2026-02-23",
+        "addFans": 96,
+        "accumFans": 64287
+      },
+      {
+        "date": "2026-02-24",
+        "addFans": 128,
+        "accumFans": 64415
+      },
+      {
+        "date": "2026-02-25",
+        "addFans": 156,
+        "accumFans": 64571
+      },
+      {
+        "date": "2026-02-26",
+        "addFans": 154,
+        "accumFans": 64725
+      },
+      {
+        "date": "2026-02-27",
+        "addFans": 120,
+        "accumFans": 64845
+      },
+      {
+        "date": "2026-02-28",
+        "addFans": 77,
+        "accumFans": 64922
+      },
+      {
+        "date": "2026-03-01",
+        "addFans": 81,
+        "accumFans": 65003
+      },
+      {
+        "date": "2026-03-02",
+        "addFans": 150,
+        "accumFans": 65153
+      },
+      {
+        "date": "2026-03-03",
+        "addFans": 151,
+        "accumFans": 65304
+      },
+      {
+        "date": "2026-03-04",
+        "addFans": 129,
+        "accumFans": 65433
+      },
+      {
+        "date": "2026-03-05",
+        "addFans": 123,
+        "accumFans": 65556
+      },
+      {
+        "date": "2026-03-06",
+        "addFans": 105,
+        "accumFans": 65661
+      },
+      {
+        "date": "2026-03-07",
+        "addFans": 54,
+        "accumFans": 65715
+      },
+      {
+        "date": "2026-03-08",
+        "addFans": 38,
+        "accumFans": 65753
+      },
+      {
+        "date": "2026-03-09",
+        "addFans": 74,
+        "accumFans": 65827
+      },
+      {
+        "date": "2026-03-10",
+        "addFans": 86,
+        "accumFans": 65913
+      },
+      {
+        "date": "2026-03-11",
+        "addFans": 122,
+        "accumFans": 66035
+      },
+      {
+        "date": "2026-03-12",
+        "addFans": 131,
+        "accumFans": 66166
+      },
+      {
+        "date": "2026-03-13",
+        "addFans": 106,
+        "accumFans": 66272
+      },
+      {
+        "date": "2026-03-14",
+        "addFans": 71,
+        "accumFans": 66343
+      },
+      {
+        "date": "2026-03-15",
+        "addFans": 79,
+        "accumFans": 66422
+      },
+      {
+        "date": "2026-03-16",
+        "addFans": 111,
+        "accumFans": 66533
+      },
+      {
+        "date": "2026-03-17",
+        "addFans": 141,
+        "accumFans": 66674
+      },
+      {
+        "date": "2026-03-18",
+        "addFans": 133,
+        "accumFans": 66807
+      },
+      {
+        "date": "2026-03-19",
+        "addFans": 143,
+        "accumFans": 66950
+      },
+      {
+        "date": "2026-03-20",
+        "addFans": 124,
+        "accumFans": 67074
+      },
+      {
+        "date": "2026-03-21",
+        "addFans": 82,
+        "accumFans": 67156
+      },
+      {
+        "date": "2026-03-22",
+        "addFans": 82,
+        "accumFans": 67238
+      },
+      {
+        "date": "2026-03-23",
+        "addFans": 113,
+        "accumFans": 67351
+      },
+      {
+        "date": "2026-03-24",
+        "addFans": 107,
+        "accumFans": 67458
+      },
+      {
+        "date": "2026-03-25",
+        "addFans": 92,
+        "accumFans": 67550
+      },
+      {
+        "date": "2026-03-26",
+        "addFans": 104,
+        "accumFans": 67654
+      },
+      {
+        "date": "2026-03-27",
+        "addFans": 92,
+        "accumFans": 67746
+      },
+      {
+        "date": "2026-03-28",
+        "addFans": 80,
+        "accumFans": 67826
+      },
+      {
+        "date": "2026-03-29",
+        "addFans": 40,
+        "accumFans": 67866
+      },
+      {
+        "date": "2026-03-30",
+        "addFans": 63,
+        "accumFans": 67929
+      },
+      {
+        "date": "2026-03-31",
+        "addFans": 68,
+        "accumFans": 67997
+      },
+      {
+        "date": "2026-04-01",
+        "addFans": 77,
+        "accumFans": 68074
+      },
+      {
+        "date": "2026-04-02",
+        "addFans": 53,
+        "accumFans": 68127
+      },
+      {
+        "date": "2026-04-03",
+        "addFans": 47,
+        "accumFans": 68174
+      },
+      {
+        "date": "2026-04-04",
+        "addFans": 33,
+        "accumFans": 68207
+      },
+      {
+        "date": "2026-04-05",
+        "addFans": 17,
+        "accumFans": 68224
+      },
+      {
+        "date": "2026-04-06",
+        "addFans": 37,
+        "accumFans": 68261
+      },
+      {
+        "date": "2026-04-07",
+        "addFans": 57,
+        "accumFans": 68318
+      },
+      {
+        "date": "2026-04-08",
+        "addFans": 83,
+        "accumFans": 68401
+      },
+      {
+        "date": "2026-04-09",
+        "addFans": 87,
+        "accumFans": 68488
+      },
+      {
+        "date": "2026-04-10",
+        "addFans": 88,
+        "accumFans": 68576
+      },
+      {
+        "date": "2026-04-11",
+        "addFans": 73,
+        "accumFans": 68649
+      },
+      {
+        "date": "2026-04-12",
+        "addFans": 62,
+        "accumFans": 68711
+      },
+      {
+        "date": "2026-04-13",
+        "addFans": 83,
+        "accumFans": 68794
+      }
+    ],
+    "articles": [
+      {
+        "id": "177810134",
+        "title": "æ°ç­é°å½±ä¸çæ¥µç«¯èµ°å¢",
+        "publishedAt": "2026-03-31",
+        "reach": 5627,
+        "clicks": 1013,
+        "interactions": 51,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "1303",
+            "name": ""
+          },
+          {
+            "code": "1326",
+            "name": ""
+          },
+          {
+            "code": "1301",
+            "name": ""
+          },
+          {
+            "code": "1304",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 44,
+          "comment": 2,
+          "share": 2,
+          "donate": 3
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2144,
+            "percent": 83
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 313,
+            "percent": 12
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 69,
+            "percent": 3
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 36,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 19,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177834614",
+        "title": "ã2026.3.31ææå¯¦æ°éã",
+        "publishedAt": "2026-03-31",
+        "reach": 4,
+        "clicks": 1,
+        "interactions": 11,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 11,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 3,
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "id": "177806023",
+        "title": "2026.3.30ç¾è¡æå­¸\nNetflixä½æ¥æ¡ä¾èªªæ\n",
+        "publishedAt": "2026-03-30",
+        "reach": 2,
+        "clicks": 0,
+        "interactions": 15,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 13,
+          "comment": 2,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 1,
+            "percent": 100
+          }
+        ]
+      },
+      {
+        "id": "177796865",
+        "title": "ã2026.3.25 ææå¯¦æ°éã",
+        "publishedAt": "2026-03-30",
+        "reach": 6,
+        "clicks": 1,
+        "interactions": 0,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 0,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": []
+      },
+      {
+        "id": "177796886",
+        "title": "ã2026.3.26 ææå¯¦æ°éã",
+        "publishedAt": "2026-03-30",
+        "reach": 6,
+        "clicks": 1,
+        "interactions": 0,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 0,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": []
+      },
+      {
+        "id": "177791084",
+        "title": "ã2026.3.23 ææå¯¦æ°éã",
+        "publishedAt": "2026-03-30",
+        "reach": 4,
+        "clicks": 1,
+        "interactions": 0,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 0,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": []
+      },
+      {
+        "id": "177784000",
+        "title": "ç¡å¾èï¼ææ¯çæ­£çè´å®¶ï¼é±äºç¾è¡å¤§è·ä½ åå¤±ç äºåï¼",
+        "publishedAt": "2026-03-30",
+        "reach": 4443,
+        "clicks": 800,
+        "interactions": 58,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2313",
+            "name": ""
+          },
+          {
+            "code": "2367",
+            "name": ""
+          },
+          {
+            "code": "3715",
+            "name": ""
+          },
+          {
+            "code": "1785",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 53,
+          "comment": 1,
+          "share": 2,
+          "donate": 2
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 1195,
+            "percent": 70
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 411,
+            "percent": 24
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 48,
+            "percent": 3
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 39,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 18,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "177796819",
+        "title": "ã2026.3.24 ææå¯¦æ°éã",
+        "publishedAt": "2026-03-30",
+        "reach": 6,
+        "clicks": 1,
+        "interactions": 1,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 1,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": []
+      },
+      {
+        "id": "177793120",
+        "title": "è¶ç°¡å®å°æææè³æ³ ä»æ 19:00 ç´æ­",
+        "publishedAt": "2026-03-30",
+        "reach": 1211,
+        "clicks": 218,
+        "interactions": 37,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 36,
+          "comment": 0,
+          "share": 0,
+          "donate": 1
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 221,
+            "percent": 47
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 83,
+            "percent": 18
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 57,
+            "percent": 12
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 56,
+            "percent": 12
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 55,
+            "percent": 12
+          }
+        ]
+      },
+      {
+        "id": "177796947",
+        "title": "ã2026.3.27 ææå¯¦æ°éã",
+        "publishedAt": "2026-03-30",
+        "reach": 6,
+        "clicks": 1,
+        "interactions": 5,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 5,
+          "comment": 0,
+          "share": 0,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 3,
+            "percent": 100
+          }
+        ]
+      }
+    ]
+  },
+  "3158198": {
+    "creatorId": "3158198",
+    "followers": 206541,
+    "followerHistory": [
+      {
+        "date": "2026-02-13",
+        "addFans": 436,
+        "accumFans": 142720
+      },
+      {
+        "date": "2026-02-14",
+        "addFans": 381,
+        "accumFans": 143101
+      },
+      {
+        "date": "2026-02-15",
+        "addFans": 346,
+        "accumFans": 143447
+      },
+      {
+        "date": "2026-02-16",
+        "addFans": 311,
+        "accumFans": 143758
+      },
+      {
+        "date": "2026-02-17",
+        "addFans": 288,
+        "accumFans": 144046
+      },
+      {
+        "date": "2026-02-18",
+        "addFans": 340,
+        "accumFans": 144386
+      },
+      {
+        "date": "2026-02-19",
+        "addFans": 327,
+        "accumFans": 144713
+      },
+      {
+        "date": "2026-02-20",
+        "addFans": 370,
+        "accumFans": 145083
+      },
+      {
+        "date": "2026-02-21",
+        "addFans": 395,
+        "accumFans": 145478
+      },
+      {
+        "date": "2026-02-22",
+        "addFans": 566,
+        "accumFans": 146044
+      },
+      {
+        "date": "2026-02-23",
+        "addFans": 1269,
+        "accumFans": 147313
+      },
+      {
+        "date": "2026-02-24",
+        "addFans": 1819,
+        "accumFans": 149132
+      },
+      {
+        "date": "2026-02-25",
+        "addFans": 2048,
+        "accumFans": 151180
+      },
+      {
+        "date": "2026-02-26",
+        "addFans": 1829,
+        "accumFans": 153009
+      },
+      {
+        "date": "2026-02-27",
+        "addFans": 1017,
+        "accumFans": 154026
+      },
+      {
+        "date": "2026-02-28",
+        "addFans": 711,
+        "accumFans": 154737
+      },
+      {
+        "date": "2026-03-01",
+        "addFans": 1001,
+        "accumFans": 155738
+      },
+      {
+        "date": "2026-03-02",
+        "addFans": 1776,
+        "accumFans": 157514
+      },
+      {
+        "date": "2026-03-03",
+        "addFans": 1988,
+        "accumFans": 159502
+      },
+      {
+        "date": "2026-03-04",
+        "addFans": 1889,
+        "accumFans": 161391
+      },
+      {
+        "date": "2026-03-05",
+        "addFans": 1701,
+        "accumFans": 163092
+      },
+      {
+        "date": "2026-03-06",
+        "addFans": 1236,
+        "accumFans": 164328
+      },
+      {
+        "date": "2026-03-07",
+        "addFans": 676,
+        "accumFans": 165004
+      },
+      {
+        "date": "2026-03-08",
+        "addFans": 634,
+        "accumFans": 165638
+      },
+      {
+        "date": "2026-03-09",
+        "addFans": 1402,
+        "accumFans": 167040
+      },
+      {
+        "date": "2026-03-10",
+        "addFans": 1354,
+        "accumFans": 168394
+      },
+      {
+        "date": "2026-03-11",
+        "addFans": 1555,
+        "accumFans": 169949
+      },
+      {
+        "date": "2026-03-12",
+        "addFans": 1660,
+        "accumFans": 171609
+      },
+      {
+        "date": "2026-03-13",
+        "addFans": 1548,
+        "accumFans": 173157
+      },
+      {
+        "date": "2026-03-14",
+        "addFans": 866,
+        "accumFans": 174023
+      },
+      {
+        "date": "2026-03-15",
+        "addFans": 819,
+        "accumFans": 174842
+      },
+      {
+        "date": "2026-03-16",
+        "addFans": 1447,
+        "accumFans": 176289
+      },
+      {
+        "date": "2026-03-17",
+        "addFans": 1701,
+        "accumFans": 177990
+      },
+      {
+        "date": "2026-03-18",
+        "addFans": 1837,
+        "accumFans": 179827
+      },
+      {
+        "date": "2026-03-19",
+        "addFans": 1933,
+        "accumFans": 181760
+      },
+      {
+        "date": "2026-03-20",
+        "addFans": 1634,
+        "accumFans": 183394
+      },
+      {
+        "date": "2026-03-21",
+        "addFans": 919,
+        "accumFans": 184313
+      },
+      {
+        "date": "2026-03-22",
+        "addFans": 933,
+        "accumFans": 185246
+      },
+      {
+        "date": "2026-03-23",
+        "addFans": 1518,
+        "accumFans": 186764
+      },
+      {
+        "date": "2026-03-24",
+        "addFans": 1285,
+        "accumFans": 188049
+      },
+      {
+        "date": "2026-03-25",
+        "addFans": 1548,
+        "accumFans": 189597
+      },
+      {
+        "date": "2026-03-26",
+        "addFans": 1414,
+        "accumFans": 191011
+      },
+      {
+        "date": "2026-03-27",
+        "addFans": 1091,
+        "accumFans": 192102
+      },
+      {
+        "date": "2026-03-28",
+        "addFans": 696,
+        "accumFans": 192798
+      },
+      {
+        "date": "2026-03-29",
+        "addFans": 664,
+        "accumFans": 193462
+      },
+      {
+        "date": "2026-03-30",
+        "addFans": 967,
+        "accumFans": 194429
+      },
+      {
+        "date": "2026-03-31",
+        "addFans": 1098,
+        "accumFans": 195527
+      },
+      {
+        "date": "2026-04-01",
+        "addFans": 890,
+        "accumFans": 196417
+      },
+      {
+        "date": "2026-04-02",
+        "addFans": 814,
+        "accumFans": 197231
+      },
+      {
+        "date": "2026-04-03",
+        "addFans": 443,
+        "accumFans": 197674
+      },
+      {
+        "date": "2026-04-04",
+        "addFans": 419,
+        "accumFans": 198093
+      },
+      {
+        "date": "2026-04-05",
+        "addFans": 345,
+        "accumFans": 198438
+      },
+      {
+        "date": "2026-04-06",
+        "addFans": 385,
+        "accumFans": 198823
+      },
+      {
+        "date": "2026-04-07",
+        "addFans": 977,
+        "accumFans": 199800
+      },
+      {
+        "date": "2026-04-08",
+        "addFans": 1314,
+        "accumFans": 201114
+      },
+      {
+        "date": "2026-04-09",
+        "addFans": 1395,
+        "accumFans": 202509
+      },
+      {
+        "date": "2026-04-10",
+        "addFans": 1004,
+        "accumFans": 203513
+      },
+      {
+        "date": "2026-04-11",
+        "addFans": 820,
+        "accumFans": 204333
+      },
+      {
+        "date": "2026-04-12",
+        "addFans": 843,
+        "accumFans": 205176
+      },
+      {
+        "date": "2026-04-13",
+        "addFans": 1365,
+        "accumFans": 206541
+      }
+    ],
+    "articles": [
+      {
+        "id": "177817993",
+        "title": "ä½ çå®å°±ç¥éæ¯ç©ºéæ¯å¤ï¼å·é«åæèåæ³",
+        "publishedAt": "2026-03-31",
+        "reach": 22477,
+        "clicks": 4046,
+        "interactions": 1028,
+        "stockTags": [
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 646,
+          "comment": 63,
+          "share": 137,
+          "donate": 182
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 17262,
+            "percent": 71
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 5698,
+            "percent": 24
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 602,
+            "percent": 2
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 361,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 307,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 14,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177801657",
+        "title": "ç¤å¾çå ±ï¼å®å¹é¢¨éªååº¦æé«ï¼",
+        "publishedAt": "2026-03-30",
+        "reach": 25113,
+        "clicks": 4520,
+        "interactions": 699,
+        "stockTags": [
+          {
+            "code": "3105",
+            "name": ""
+          },
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "5314",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 449,
+          "comment": 26,
+          "share": 27,
+          "donate": 197
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 7256,
+            "percent": 49
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 6594,
+            "percent": 45
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 471,
+            "percent": 3
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 212,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 143,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 4,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177778609",
+        "title": "åæ«è¨2030ç´æ­ æå¯è½ææ© ä½çµå°ä¸æå»¶å¾",
+        "publishedAt": "2026-03-29",
+        "reach": 6007,
+        "clicks": 1081,
+        "interactions": 342,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 312,
+          "comment": 19,
+          "share": 11,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 1047,
+            "percent": 46
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 598,
+            "percent": 26
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 388,
+            "percent": 17
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 216,
+            "percent": 10
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 9,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177754453",
+        "title": "å°ç©ºæªä¾è¬vixè·ç¤å¾è¦çä»éº¼ï¼è¦æéº¼ä½¿ç¨ä»",
+        "publishedAt": "2026-03-27",
+        "reach": 24097,
+        "clicks": 4337,
+        "interactions": 891,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "3017",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 528,
+          "comment": 49,
+          "share": 137,
+          "donate": 177
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 13874,
+            "percent": 70
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4515,
+            "percent": 23
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 742,
+            "percent": 4
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 466,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 134,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 7,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177727273",
+        "title": "ç¤å¾çå ±ï¼ç¹¼çºä¿®å¾©ï¼",
+        "publishedAt": "2026-03-26",
+        "reach": 24442,
+        "clicks": 4400,
+        "interactions": 649,
+        "stockTags": [
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "3576",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 463,
+          "comment": 41,
+          "share": 24,
+          "donate": 121
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 7400,
+            "percent": 50
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 6406,
+            "percent": 43
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 692,
+            "percent": 5
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 307,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 108,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 7,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177648462",
+        "title": "ç¤åçå ±ï¼0835ç´æ­ ï¼",
+        "publishedAt": "2026-03-24",
+        "reach": 13897,
+        "clicks": 2501,
+        "interactions": 415,
+        "stockTags": [
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 343,
+          "comment": 35,
+          "share": 19,
+          "donate": 18
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 3303,
+            "percent": 49
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 2301,
+            "percent": 34
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 820,
+            "percent": 12
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 301,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 67,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 2,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177614670",
+        "title": "è¬å200æ¥çºä»éº¼å¾éè¦å¥½äº",
+        "publishedAt": "2026-03-22",
+        "reach": 28202,
+        "clicks": 5076,
+        "interactions": 996,
+        "stockTags": [
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "0050",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 701,
+          "comment": 57,
+          "share": 84,
+          "donate": 154
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 10171,
+            "percent": 60
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 5166,
+            "percent": 31
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 1022,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 393,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 117,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 10,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177571999",
+        "title": "ç¤åçå ±ï¼ç¾è¡å³éä¸å°ï¼",
+        "publishedAt": "2026-03-20",
+        "reach": 21707,
+        "clicks": 3907,
+        "interactions": 464,
+        "stockTags": [
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 386,
+          "comment": 21,
+          "share": 20,
+          "donate": 37
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 7955,
+            "percent": 53
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 5777,
+            "percent": 38
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 966,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 238,
+            "percent": 2
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 120,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 3,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177539047",
+        "title": "ç¤åçå ±ï¼å¸å ´å¥½è®æï¼",
+        "publishedAt": "2026-03-19",
+        "reach": 21935,
+        "clicks": 3948,
+        "interactions": 630,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2337",
+            "name": ""
+          },
+          {
+            "code": "6770",
+            "name": ""
+          },
+          {
+            "code": "3481",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 491,
+          "comment": 33,
+          "share": 44,
+          "donate": 62
+        },
+        "trafficSources": [
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 9004,
+            "percent": 62
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4423,
+            "percent": 30
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 803,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 206,
+            "percent": 1
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 120,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 13,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177532095",
+        "title": "å°ç·¨è¸¹å°ç¶²è·¯ç· åä¾å¡ä½å¥½äº",
+        "publishedAt": "2026-03-18",
+        "reach": 2250,
+        "clicks": 405,
+        "interactions": 197,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 183,
+          "comment": 5,
+          "share": 9,
+          "donate": 0
+        },
+        "trafficSources": [
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 620,
+            "percent": 45
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 324,
+            "percent": 24
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 249,
+            "percent": 18
+          },
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 145,
+            "percent": 11
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 28,
+            "percent": 2
+          }
+        ]
+      }
+    ]
+  },
+  "348444": {
+    "creatorId": "348444",
+    "followers": 157652,
+    "followerHistory": [
+      {
+        "date": "2026-02-13",
+        "addFans": 37,
+        "accumFans": 152378
+      },
+      {
+        "date": "2026-02-14",
+        "addFans": 37,
+        "accumFans": 152415
+      },
+      {
+        "date": "2026-02-15",
+        "addFans": 29,
+        "accumFans": 152444
+      },
+      {
+        "date": "2026-02-16",
+        "addFans": 21,
+        "accumFans": 152465
+      },
+      {
+        "date": "2026-02-17",
+        "addFans": 34,
+        "accumFans": 152499
+      },
+      {
+        "date": "2026-02-18",
+        "addFans": 15,
+        "accumFans": 152514
+      },
+      {
+        "date": "2026-02-19",
+        "addFans": 35,
+        "accumFans": 152549
+      },
+      {
+        "date": "2026-02-20",
+        "addFans": 25,
+        "accumFans": 152574
+      },
+      {
+        "date": "2026-02-21",
+        "addFans": 46,
+        "accumFans": 152620
+      },
+      {
+        "date": "2026-02-22",
+        "addFans": 39,
+        "accumFans": 152659
+      },
+      {
+        "date": "2026-02-23",
+        "addFans": 92,
+        "accumFans": 152751
+      },
+      {
+        "date": "2026-02-24",
+        "addFans": 115,
+        "accumFans": 152866
+      },
+      {
+        "date": "2026-02-25",
+        "addFans": 140,
+        "accumFans": 153006
+      },
+      {
+        "date": "2026-02-26",
+        "addFans": 133,
+        "accumFans": 153139
+      },
+      {
+        "date": "2026-02-27",
+        "addFans": 107,
+        "accumFans": 153246
+      },
+      {
+        "date": "2026-02-28",
+        "addFans": 69,
+        "accumFans": 153315
+      },
+      {
+        "date": "2026-03-01",
+        "addFans": 85,
+        "accumFans": 153400
+      },
+      {
+        "date": "2026-03-02",
+        "addFans": 121,
+        "accumFans": 153521
+      },
+      {
+        "date": "2026-03-03",
+        "addFans": 121,
+        "accumFans": 153642
+      },
+      {
+        "date": "2026-03-04",
+        "addFans": 130,
+        "accumFans": 153772
+      },
+      {
+        "date": "2026-03-05",
+        "addFans": 108,
+        "accumFans": 153880
+      },
+      {
+        "date": "2026-03-06",
+        "addFans": 88,
+        "accumFans": 153968
+      },
+      {
+        "date": "2026-03-07",
+        "addFans": 87,
+        "accumFans": 154055
+      },
+      {
+        "date": "2026-03-08",
+        "addFans": 69,
+        "accumFans": 154124
+      },
+      {
+        "date": "2026-03-09",
+        "addFans": 173,
+        "accumFans": 154297
+      },
+      {
+        "date": "2026-03-10",
+        "addFans": 130,
+        "accumFans": 154427
+      },
+      {
+        "date": "2026-03-11",
+        "addFans": 137,
+        "accumFans": 154564
+      },
+      {
+        "date": "2026-03-12",
+        "addFans": 120,
+        "accumFans": 154684
+      },
+      {
+        "date": "2026-03-13",
+        "addFans": 139,
+        "accumFans": 154823
+      },
+      {
+        "date": "2026-03-14",
+        "addFans": 85,
+        "accumFans": 154908
+      },
+      {
+        "date": "2026-03-15",
+        "addFans": 91,
+        "accumFans": 154999
+      },
+      {
+        "date": "2026-03-16",
+        "addFans": 140,
+        "accumFans": 155139
+      },
+      {
+        "date": "2026-03-17",
+        "addFans": 110,
+        "accumFans": 155249
+      },
+      {
+        "date": "2026-03-18",
+        "addFans": 144,
+        "accumFans": 155393
+      },
+      {
+        "date": "2026-03-19",
+        "addFans": 144,
+        "accumFans": 155537
+      },
+      {
+        "date": "2026-03-20",
+        "addFans": 156,
+        "accumFans": 155693
+      },
+      {
+        "date": "2026-03-21",
+        "addFans": 106,
+        "accumFans": 155799
+      },
+      {
+        "date": "2026-03-22",
+        "addFans": 131,
+        "accumFans": 155930
+      },
+      {
+        "date": "2026-03-23",
+        "addFans": 197,
+        "accumFans": 156127
+      },
+      {
+        "date": "2026-03-24",
+        "addFans": 104,
+        "accumFans": 156231
+      },
+      {
+        "date": "2026-03-25",
+        "addFans": 130,
+        "accumFans": 156361
+      },
+      {
+        "date": "2026-03-26",
+        "addFans": 123,
+        "accumFans": 156484
+      },
+      {
+        "date": "2026-03-27",
+        "addFans": 105,
+        "accumFans": 156589
+      },
+      {
+        "date": "2026-03-28",
+        "addFans": 72,
+        "accumFans": 156661
+      },
+      {
+        "date": "2026-03-29",
+        "addFans": 69,
+        "accumFans": 156730
+      },
+      {
+        "date": "2026-03-30",
+        "addFans": 47,
+        "accumFans": 156777
+      },
+      {
+        "date": "2026-03-31",
+        "addFans": 66,
+        "accumFans": 156843
+      },
+      {
+        "date": "2026-04-01",
+        "addFans": 70,
+        "accumFans": 156913
+      },
+      {
+        "date": "2026-04-02",
+        "addFans": 49,
+        "accumFans": 156962
+      },
+      {
+        "date": "2026-04-03",
+        "addFans": 36,
+        "accumFans": 156998
+      },
+      {
+        "date": "2026-04-04",
+        "addFans": 36,
+        "accumFans": 157034
+      },
+      {
+        "date": "2026-04-05",
+        "addFans": 23,
+        "accumFans": 157057
+      },
+      {
+        "date": "2026-04-06",
+        "addFans": 37,
+        "accumFans": 157094
+      },
+      {
+        "date": "2026-04-07",
+        "addFans": 45,
+        "accumFans": 157139
+      },
+      {
+        "date": "2026-04-08",
+        "addFans": 78,
+        "accumFans": 157217
+      },
+      {
+        "date": "2026-04-09",
+        "addFans": 82,
+        "accumFans": 157299
+      },
+      {
+        "date": "2026-04-10",
+        "addFans": 108,
+        "accumFans": 157407
+      },
+      {
+        "date": "2026-04-11",
+        "addFans": 56,
+        "accumFans": 157463
+      },
+      {
+        "date": "2026-04-12",
+        "addFans": 90,
+        "accumFans": 157553
+      },
+      {
+        "date": "2026-04-13",
+        "addFans": 99,
+        "accumFans": 157652
+      }
+    ],
+    "articles": [
+      {
+        "id": "177828650",
+        "title": "å°ææä¿è­éç¸è£â¤ï¸",
+        "publishedAt": "2026-03-31",
+        "reach": 7494,
+        "clicks": 1349,
+        "interactions": 535,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "00715L",
+            "name": ""
+          },
+          {
+            "code": "00635U",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 390,
+          "comment": 52,
+          "share": 8,
+          "donate": 85
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 3230,
+            "percent": 80
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 420,
+            "percent": 10
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 235,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 102,
+            "percent": 3
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 31,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "177830948",
+        "title": "é»å¾©å¥å¸«ç¼åä¸­â¤ï¸è»æçè©±ææ¦ä¸è² è²¬å~",
+        "publishedAt": "2026-03-31",
+        "reach": 5508,
+        "clicks": 991,
+        "interactions": 528,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 439,
+          "comment": 55,
+          "share": 6,
+          "donate": 28
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2687,
+            "percent": 78
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 324,
+            "percent": 9
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 247,
+            "percent": 7
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 166,
+            "percent": 5
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 15,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177810229",
+        "title": "ç­ä¸äººåå¡æ²ä¾â¤ï¸ä½ ä½ä¸ä¸»ååºæ",
+        "publishedAt": "2026-03-31",
+        "reach": 6159,
+        "clicks": 1109,
+        "interactions": 471,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "8358",
+            "name": ""
+          },
+          {
+            "code": "2301",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "6505",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 386,
+          "comment": 56,
+          "share": 5,
+          "donate": 24
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2530,
+            "percent": 78
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 356,
+            "percent": 11
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 179,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 141,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 26,
+            "percent": 1
+          }
+        ]
+      },
+      {
+        "id": "177811276",
+        "title": "å·å·å¨æ¼å·åè®èâ¤ï¸",
+        "publishedAt": "2026-03-31",
+        "reach": 3250,
+        "clicks": 585,
+        "interactions": 414,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 328,
+          "comment": 44,
+          "share": 10,
+          "donate": 32
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 1178,
+            "percent": 67
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 227,
+            "percent": 13
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 217,
+            "percent": 12
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 128,
+            "percent": 7
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 8,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177817586",
+        "title": "å¯å£«å±±å¥è§â¤ï¸å¾©ç¤ä»å¤©èªé³ç´æ­è¬è§£çåè¡",
+        "publishedAt": "2026-03-31",
+        "reach": 9994,
+        "clicks": 1799,
+        "interactions": 455,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "4906",
+            "name": ""
+          },
+          {
+            "code": "8358",
+            "name": ""
+          },
+          {
+            "code": "2408",
+            "name": ""
+          },
+          {
+            "code": "00715L",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 374,
+          "comment": 44,
+          "share": 7,
+          "donate": 30
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4160,
+            "percent": 81
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 405,
+            "percent": 8
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 248,
+            "percent": 5
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 162,
+            "percent": 3
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 135,
+            "percent": 3
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177784337",
+        "title": "å å¯å°é£æµ´å·¾ä¸å¢â¤ï¸å°æçºéä½æ©çå¤§å¢ï¼åè§å¯åèæ®åä½",
+        "publishedAt": "2026-03-30",
+        "reach": 6196,
+        "clicks": 1115,
+        "interactions": 604,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2330",
+            "name": ""
+          },
+          {
+            "code": "2618",
+            "name": ""
+          },
+          {
+            "code": "2382",
+            "name": ""
+          },
+          {
+            "code": "00715L",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 426,
+          "comment": 63,
+          "share": 13,
+          "donate": 102
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 1938,
+            "percent": 69
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 381,
+            "percent": 14
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 245,
+            "percent": 9
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 212,
+            "percent": 8
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 24,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 3,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177801691",
+        "title": "ä»æé®çºçºè«è©±â¤ï¸ç­ä¸åé»å¾©å¥å¸«ä»å¤©å°±åææ©äºä¸å",
+        "publishedAt": "2026-03-30",
+        "reach": 11083,
+        "clicks": 1995,
+        "interactions": 489,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 427,
+          "comment": 40,
+          "share": 6,
+          "donate": 16
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 5018,
+            "percent": 83
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 460,
+            "percent": 8
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 294,
+            "percent": 5
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 212,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 29,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177792131",
+        "title": "ç¤é»ä¸ä¸æ°å¼åæå­¸çå¨åâ¤ï¸æ¼²åé£é£",
+        "publishedAt": "2026-03-30",
+        "reach": 8506,
+        "clicks": 1531,
+        "interactions": 328,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "1305",
+            "name": ""
+          },
+          {
+            "code": "5243",
+            "name": ""
+          },
+          {
+            "code": "1309",
+            "name": ""
+          },
+          {
+            "code": "1905",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 274,
+          "comment": 34,
+          "share": 7,
+          "donate": 13
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 4037,
+            "percent": 82
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 291,
+            "percent": 6
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 285,
+            "percent": 6
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 183,
+            "percent": 4
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 114,
+            "percent": 2
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 5,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177781379",
+        "title": "èª°èªªãå¥³ççä¸å¯è½ä¸è§ãä¸æç¼çâ¤ï¸",
+        "publishedAt": "2026-03-29",
+        "reach": 2223,
+        "clicks": 400,
+        "interactions": 460,
+        "stockTags": [],
+        "engagementBreakdown": {
+          "emoji": 392,
+          "comment": 43,
+          "share": 12,
+          "donate": 13
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 318,
+            "percent": 28
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 301,
+            "percent": 27
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 257,
+            "percent": 23
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 248,
+            "percent": 22
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 10,
+            "percent": 1
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 1,
+            "percent": 0
+          }
+        ]
+      },
+      {
+        "id": "177779503",
+        "title": "ãèæçåæå­¸æå®¤ãâ¤ï¸ç±éè¡è§£æ--é´»æµ·ãè¯é¦é»ãåäºç§",
+        "publishedAt": "2026-03-29",
+        "reach": 12315,
+        "clicks": 2217,
+        "interactions": 514,
+        "stockTags": [
+          {
+            "code": "TWA00",
+            "name": ""
+          },
+          {
+            "code": "2317",
+            "name": ""
+          },
+          {
+            "code": "2344",
+            "name": ""
+          },
+          {
+            "code": "2382",
+            "name": ""
+          },
+          {
+            "code": "2313",
+            "name": ""
+          }
+        ],
+        "engagementBreakdown": {
+          "emoji": 402,
+          "comment": 62,
+          "share": 8,
+          "donate": 42
+        },
+        "trafficSources": [
+          {
+            "source": "recommend",
+            "label": "推薦動態",
+            "count": 2419,
+            "percent": 63
+          },
+          {
+            "source": "other",
+            "label": "其他",
+            "count": 694,
+            "percent": 18
+          },
+          {
+            "source": "profile",
+            "label": "個人主頁",
+            "count": 395,
+            "percent": 10
+          },
+          {
+            "source": "following",
+            "label": "追蹤動態",
+            "count": 212,
+            "percent": 6
+          },
+          {
+            "source": "search",
+            "label": "搜尋",
+            "count": 106,
+            "percent": 3
+          },
+          {
+            "source": "news",
+            "label": "新聞",
+            "count": 4,
+            "percent": 0
+          }
+        ]
+      }
+    ]
+  }
+}
