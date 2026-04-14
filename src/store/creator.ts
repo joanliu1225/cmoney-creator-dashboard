@@ -1,6 +1,13 @@
 import { ref, computed } from 'vue'
 import creatorsData from '@/data/creators.json'
 
+// Creator display names
+const creatorNames: Record<string, string> = {
+  '29475': '林恩如-超簡單投資法',
+  '348444': 'Sara Wang',
+  '3158198': '肌肉書僮',
+}
+
 // Available creator IDs
 const allCreatorIds = Object.keys(creatorsData) as string[]
 
@@ -15,6 +22,7 @@ const currentCreator = computed(() => {
 export function useCreatorStore() {
   return {
     allCreatorIds,
+    creatorNames,
     currentCreatorId,
     currentCreator,
     setCreator(id: string) {

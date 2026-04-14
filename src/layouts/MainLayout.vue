@@ -14,7 +14,7 @@ const openFeedbackForm = () => {
 
 const route = useRoute()
 const creator = ref<Creator | null>(null)
-const { allCreatorIds, currentCreatorId, setCreator } = useCreatorStore()
+const { allCreatorIds, creatorNames, currentCreatorId, setCreator } = useCreatorStore()
 
 const activeMenu = computed(() => {
   const path = route.path
@@ -55,7 +55,7 @@ watch(currentCreatorId, loadCreator)
           <el-option
             v-for="id in allCreatorIds"
             :key="id"
-            :label="'ID: ' + id"
+            :label="creatorNames[id] || id"
             :value="id"
           />
         </el-select>

@@ -58,6 +58,7 @@ def query(sql, limit=200):
         json={"jobId": job_id, "limit": str(limit), "sql": sql, "txDate": TX_DATE, "droppedColumns": ""},
         headers={"Content-Type": "application/json"},
     )
+    r.encoding = "utf-8"  # Anya returns UTF-8 but doesn't declare charset
     d = r.json()
     if d.get("error"):
         print(f"  ERROR: {d['error'][:150]}")
@@ -71,11 +72,12 @@ def fetch_creator(cid):
     print(f"\n=== Creator {cid} ===")
     result = {"creatorId": str(cid)}
 
-    # 1. Followers (60 days)
+    # 1. Followers (60 days) — filter by ddate (table key) for performance
     print("  Fetching followers...")
     followers = query(
         f"SELECT creatorid, add_fans, accum_fans_cnt, ddate "
         f"FROM trans_follow_stat_day WHERE creatorid = {cid} "
+        f"AND ddate >= date_sub('{TX_DATE[:10]}', 60) "
         f"ORDER BY ddate DESC LIMIT 60"
     )
     result["followers"] = int(followers[0]["accum_fans_cnt"]) if followers else 0

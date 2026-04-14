@@ -12,6 +12,8 @@ import type {
 import { useCreatorStore } from '@/store/creator'
 import { mockFeedbacks } from '@/mock/data'
 
+// Re-export for convenience
+
 // ============================================
 // API Service Layer — reads from pre-fetched Anya data (JSON)
 // Creator data is loaded from src/data/creators.json
@@ -30,11 +32,13 @@ function getCreatorData() {
 // ============================================
 export async function fetchCreator(): Promise<Creator> {
   await delay()
+  const { creatorNames, currentCreatorId } = useCreatorStore()
   const c = getCreatorData()
+  const id = c?.creatorId || currentCreatorId.value
   return {
-    id: c?.creatorId || 'unknown',
-    name: c?.creatorId || '創作者',
-    avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${c?.creatorId || '0'}`,
+    id,
+    name: creatorNames[id] || id,
+    avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${id}`,
     level: 'general',
     joinedAt: '2024-01-01',
   }
