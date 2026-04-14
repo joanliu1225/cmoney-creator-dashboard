@@ -126,15 +126,16 @@ def fetch_creator(cid):
             disp_map[aid] = cnt
     time.sleep(2)
 
-    # 4. Interactions for these articles
+    # 4. Interactions for these articles (group by kind to avoid double-counting)
     print("  Fetching interactions...")
     interactions = query(
-        f"SELECT articleid, interaction_type, SUM(CAST(cnt AS INT)) as total "
+        f"SELECT articleid, kind, interaction_type, SUM(CAST(cnt AS INT)) as total "
         f"FROM trans_interaction_stat WHERE articleid IN ({ids_str}) "
         f"AND kind IN ('week', 'month') "
-        f"GROUP BY articleid, interaction_type",
+        f"GROUP BY articleid, kind, interaction_type",
         limit=200,
     )
+    # Per article+type, take the max across week/month (not sum)
     inter_map = {}
     for i in interactions:
         aid = i["articleid"]
@@ -144,7 +145,9 @@ def fetch_creator(cid):
         itype = i["interaction_type"]
         if cnt > inter_map[aid].get(itype, 0):
             inter_map[aid][itype] = cnt
-            inter_map[aid]["total"] = sum(v for k, v in inter_map[aid].items() if k != "total")
+    # Recalculate totals after all rows processed
+    for aid in inter_map:
+        inter_map[aid]["total"] = sum(v for k, v in inter_map[aid].items() if k != "total")
     time.sleep(2)
 
     # 5. Traffic sources

@@ -24,7 +24,7 @@ onMounted(loadData)
 watch(currentCreatorId, loadData)
 
 // 計算發佈至今的天數（數值）
-const TODAY = new Date('2026-04-07')
+const TODAY = new Date()
 const daysSince = (dateStr: string) => {
   const d = new Date(dateStr)
   return Math.max(1, Math.floor((TODAY.getTime() - d.getTime()) / (1000 * 60 * 60 * 24)))
@@ -43,9 +43,9 @@ const articlesWithRates = computed(() =>
     const days = daysSince(a.publishedAt)
     return {
       ...a,
-      clickRate: a.clicks / a.reach,
-      interactionRate: a.interactions / a.reach,
-      deepInteractionRate: a.interactions / a.clicks,
+      clickRate: a.reach > 0 ? a.clicks / a.reach : 0,
+      interactionRate: a.reach > 0 ? a.interactions / a.reach : 0,
+      deepInteractionRate: a.clicks > 0 ? a.interactions / a.clicks : 0,
       dailyReach: Math.round(a.reach / days),
       dailyClicks: Math.round(a.clicks / days),
       daysLive: days,

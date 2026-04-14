@@ -73,7 +73,7 @@ async function switchPeriod(p: 'week' | 'month') {
 const formatNum = (n: number) => n.toLocaleString('zh-TW')
 const formatPct = (n: number) => (n * 100).toFixed(1) + '%'
 
-const TODAY = new Date('2026-04-07')
+const TODAY = new Date()
 const daysSincePublished = (dateStr: string) => {
   const d = new Date(dateStr)
   const diff = Math.floor((TODAY.getTime() - d.getTime()) / (1000 * 60 * 60 * 24))
@@ -432,7 +432,7 @@ const recentArticles = computed(() => {
           </template>
           <template #default="{ row }">
             <div>{{ formatNum(row.clicks) }}</div>
-            <div class="rate">{{ formatPct(row.clicks / row.reach) }}</div>
+            <div class="rate">{{ row.reach > 0 ? formatPct(row.clicks / row.reach) : '-' }}</div>
           </template>
         </el-table-column>
         <el-table-column width="110" align="right">
@@ -444,7 +444,7 @@ const recentArticles = computed(() => {
           </template>
           <template #default="{ row }">
             <div>{{ formatNum(row.interactions) }}</div>
-            <div class="rate">{{ formatPct(row.interactions / row.reach) }}</div>
+            <div class="rate">{{ row.reach > 0 ? formatPct(row.interactions / row.reach) : '-' }}</div>
           </template>
         </el-table-column>
       </el-table>

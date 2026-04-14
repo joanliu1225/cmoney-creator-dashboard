@@ -328,7 +328,7 @@
         "publishedAt": "2026-04-13",
         "reach": 2548,
         "clicks": 459,
-        "interactions": 120,
+        "interactions": 60,
         "stockTags": [
           {
             "code": "3105",
@@ -352,9 +352,9 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 112,
-          "comment": 2,
-          "share": 6,
+          "emoji": 56,
+          "comment": 1,
+          "share": 3,
           "donate": 0
         },
         "trafficSources": [
@@ -404,10 +404,10 @@
         "publishedAt": "2026-04-10",
         "reach": 2,
         "clicks": 0,
-        "interactions": 8,
+        "interactions": 4,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 8,
+          "emoji": 4,
           "comment": 0,
           "share": 0,
           "donate": 0
@@ -441,10 +441,10 @@
         "publishedAt": "2026-04-10",
         "reach": 2,
         "clicks": 0,
-        "interactions": 4,
+        "interactions": 2,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 4,
+          "emoji": 2,
           "comment": 0,
           "share": 0,
           "donate": 0
@@ -484,11 +484,11 @@
         "publishedAt": "2026-04-10",
         "reach": 1,
         "clicks": 0,
-        "interactions": 6,
+        "interactions": 3,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 4,
-          "comment": 2,
+          "emoji": 2,
+          "comment": 1,
           "share": 0,
           "donate": 0
         },
@@ -515,7 +515,7 @@
         "publishedAt": "2026-04-10",
         "reach": 1644,
         "clicks": 296,
-        "interactions": 142,
+        "interactions": 71,
         "stockTags": [
           {
             "code": "TWA00",
@@ -539,9 +539,9 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 120,
-          "comment": 6,
-          "share": 16,
+          "emoji": 60,
+          "comment": 3,
+          "share": 8,
           "donate": 0
         },
         "trafficSources": [
@@ -609,10 +609,10 @@
         "publishedAt": "2026-04-10",
         "reach": 3,
         "clicks": 1,
-        "interactions": 8,
+        "interactions": 4,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 8,
+          "emoji": 4,
           "comment": 0,
           "share": 0,
           "donate": 0
@@ -646,7 +646,7 @@
         "publishedAt": "2026-04-09",
         "reach": 3454,
         "clicks": 622,
-        "interactions": 118,
+        "interactions": 59,
         "stockTags": [
           {
             "code": "TWA00",
@@ -670,10 +670,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 106,
-          "comment": 4,
-          "share": 4,
-          "donate": 4
+          "emoji": 53,
+          "comment": 2,
+          "share": 2,
+          "donate": 2
         },
         "trafficSources": [
           {
@@ -746,10 +746,10 @@
         "publishedAt": "2026-04-09",
         "reach": 4,
         "clicks": 1,
-        "interactions": 10,
+        "interactions": 5,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 10,
+          "emoji": 5,
           "comment": 0,
           "share": 0,
           "donate": 0
@@ -783,7 +783,7 @@
         "publishedAt": "2026-04-08",
         "reach": 1980,
         "clicks": 356,
-        "interactions": 160,
+        "interactions": 80,
         "stockTags": [
           {
             "code": "6147",
@@ -807,10 +807,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 146,
-          "comment": 6,
-          "share": 6,
-          "donate": 2
+          "emoji": 73,
+          "comment": 3,
+          "share": 3,
+          "donate": 1
         },
         "trafficSources": [
           {
@@ -1197,7 +1197,7 @@
         "publishedAt": "2026-04-13",
         "reach": 12832,
         "clicks": 2310,
-        "interactions": 742,
+        "interactions": 371,
         "stockTags": [
           {
             "code": "2330",
@@ -1221,10 +1221,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 618,
-          "comment": 40,
-          "share": 48,
-          "donate": 36
+          "emoji": 309,
+          "comment": 20,
+          "share": 24,
+          "donate": 18
         },
         "trafficSources": [
           {
@@ -1285,7 +1285,7 @@
         "publishedAt": "2026-04-12",
         "reach": 8059,
         "clicks": 1451,
-        "interactions": 1724,
+        "interactions": 862,
         "stockTags": [
           {
             "code": "2330",
@@ -1309,10 +1309,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 1230,
-          "comment": 82,
-          "share": 44,
-          "donate": 368
+          "emoji": 615,
+          "comment": 41,
+          "share": 22,
+          "donate": 184
         },
         "trafficSources": [
           {
@@ -1373,7 +1373,7 @@
         "publishedAt": "2026-04-11",
         "reach": 5004,
         "clicks": 901,
-        "interactions": 858,
+        "interactions": 429,
         "stockTags": [
           {
             "code": "TWA00",
@@ -1381,10 +1381,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 706,
-          "comment": 34,
-          "share": 18,
-          "donate": 100
+          "emoji": 353,
+          "comment": 17,
+          "share": 9,
+          "donate": 50
         },
         "trafficSources": [
           {
@@ -1451,7 +1451,7 @@
         "publishedAt": "2026-04-10",
         "reach": 5538,
         "clicks": 997,
-        "interactions": 1068,
+        "interactions": 534,
         "stockTags": [
           {
             "code": "TWA00",
@@ -1459,10 +1459,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 640,
-          "comment": 54,
-          "share": 38,
-          "donate": 336
+          "emoji": 320,
+          "comment": 27,
+          "share": 19,
+          "donate": 168
         },
         "trafficSources": [
           {
@@ -1535,7 +1535,7 @@
         "publishedAt": "2026-04-10",
         "reach": 8872,
         "clicks": 1597,
-        "interactions": 1158,
+        "interactions": 579,
         "stockTags": [
           {
             "code": "TWA00",
@@ -1559,10 +1559,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 692,
-          "comment": 64,
-          "share": 40,
-          "donate": 362
+          "emoji": 346,
+          "comment": 32,
+          "share": 20,
+          "donate": 181
         },
         "trafficSources": [
           {
@@ -1635,12 +1635,12 @@
         "publishedAt": "2026-04-08",
         "reach": 2392,
         "clicks": 431,
-        "interactions": 464,
+        "interactions": 232,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 410,
-          "comment": 28,
-          "share": 26,
+          "emoji": 205,
+          "comment": 14,
+          "share": 13,
           "donate": 0
         },
         "trafficSources": [
@@ -1720,7 +1720,7 @@
         "publishedAt": "2026-04-08",
         "reach": 10915,
         "clicks": 1965,
-        "interactions": 2210,
+        "interactions": 1105,
         "stockTags": [
           {
             "code": "TWA00",
@@ -1744,10 +1744,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 1036,
-          "comment": 142,
-          "share": 38,
-          "donate": 994
+          "emoji": 518,
+          "comment": 71,
+          "share": 19,
+          "donate": 497
         },
         "trafficSources": [
           {
@@ -1832,7 +1832,7 @@
         "publishedAt": "2026-04-08",
         "reach": 9547,
         "clicks": 1718,
-        "interactions": 760,
+        "interactions": 380,
         "stockTags": [
           {
             "code": "TWA00",
@@ -1856,10 +1856,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 608,
-          "comment": 48,
-          "share": 36,
-          "donate": 68
+          "emoji": 304,
+          "comment": 24,
+          "share": 18,
+          "donate": 34
         },
         "trafficSources": [
           {
@@ -1944,12 +1944,12 @@
         "publishedAt": "2026-04-07",
         "reach": 827,
         "clicks": 149,
-        "interactions": 652,
+        "interactions": 326,
         "stockTags": [],
         "engagementBreakdown": {
-          "emoji": 614,
-          "comment": 26,
-          "share": 12,
+          "emoji": 307,
+          "comment": 13,
+          "share": 6,
           "donate": 0
         },
         "trafficSources": [
@@ -2035,7 +2035,7 @@
         "publishedAt": "2026-04-07",
         "reach": 4109,
         "clicks": 740,
-        "interactions": 810,
+        "interactions": 405,
         "stockTags": [
           {
             "code": "0050",
@@ -2047,10 +2047,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 616,
-          "comment": 44,
-          "share": 8,
-          "donate": 142
+          "emoji": 308,
+          "comment": 22,
+          "share": 4,
+          "donate": 71
         },
         "trafficSources": [
           {
@@ -2437,7 +2437,7 @@
         "publishedAt": "2026-04-13",
         "reach": 5578,
         "clicks": 1004,
-        "interactions": 678,
+        "interactions": 339,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2461,10 +2461,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 540,
-          "comment": 80,
-          "share": 10,
-          "donate": 48
+          "emoji": 270,
+          "comment": 40,
+          "share": 5,
+          "donate": 24
         },
         "trafficSources": [
           {
@@ -2513,7 +2513,7 @@
         "publishedAt": "2026-04-13",
         "reach": 5717,
         "clicks": 1029,
-        "interactions": 776,
+        "interactions": 388,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2537,10 +2537,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 622,
-          "comment": 90,
-          "share": 14,
-          "donate": 50
+          "emoji": 311,
+          "comment": 45,
+          "share": 7,
+          "donate": 25
         },
         "trafficSources": [
           {
@@ -2601,7 +2601,7 @@
         "publishedAt": "2026-04-13",
         "reach": 6849,
         "clicks": 1233,
-        "interactions": 1514,
+        "interactions": 757,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2625,10 +2625,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 1120,
-          "comment": 168,
-          "share": 24,
-          "donate": 202
+          "emoji": 560,
+          "comment": 84,
+          "share": 12,
+          "donate": 101
         },
         "trafficSources": [
           {
@@ -2683,7 +2683,7 @@
         "publishedAt": "2026-04-12",
         "reach": 3289,
         "clicks": 592,
-        "interactions": 952,
+        "interactions": 476,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2707,10 +2707,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 786,
-          "comment": 98,
-          "share": 20,
-          "donate": 48
+          "emoji": 393,
+          "comment": 49,
+          "share": 10,
+          "donate": 24
         },
         "trafficSources": [
           {
@@ -2771,7 +2771,7 @@
         "publishedAt": "2026-04-12",
         "reach": 4148,
         "clicks": 747,
-        "interactions": 878,
+        "interactions": 439,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2795,10 +2795,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 728,
-          "comment": 108,
-          "share": 16,
-          "donate": 26
+          "emoji": 364,
+          "comment": 54,
+          "share": 8,
+          "donate": 13
         },
         "trafficSources": [
           {
@@ -2853,7 +2853,7 @@
         "publishedAt": "2026-04-12",
         "reach": 3223,
         "clicks": 580,
-        "interactions": 804,
+        "interactions": 402,
         "stockTags": [
           {
             "code": "00635U",
@@ -2873,10 +2873,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 660,
-          "comment": 88,
-          "share": 12,
-          "donate": 44
+          "emoji": 330,
+          "comment": 44,
+          "share": 6,
+          "donate": 22
         },
         "trafficSources": [
           {
@@ -2937,7 +2937,7 @@
         "publishedAt": "2026-04-12",
         "reach": 3896,
         "clicks": 701,
-        "interactions": 1322,
+        "interactions": 661,
         "stockTags": [
           {
             "code": "TWA00",
@@ -2961,10 +2961,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 910,
-          "comment": 110,
-          "share": 18,
-          "donate": 284
+          "emoji": 455,
+          "comment": 55,
+          "share": 9,
+          "donate": 142
         },
         "trafficSources": [
           {
@@ -3019,7 +3019,7 @@
         "publishedAt": "2026-04-11",
         "reach": 3184,
         "clicks": 573,
-        "interactions": 962,
+        "interactions": 481,
         "stockTags": [
           {
             "code": "TWA00",
@@ -3027,10 +3027,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 808,
-          "comment": 98,
-          "share": 16,
-          "donate": 40
+          "emoji": 404,
+          "comment": 49,
+          "share": 8,
+          "donate": 20
         },
         "trafficSources": [
           {
@@ -3091,7 +3091,7 @@
         "publishedAt": "2026-04-11",
         "reach": 3114,
         "clicks": 561,
-        "interactions": 870,
+        "interactions": 435,
         "stockTags": [
           {
             "code": "TWA00",
@@ -3099,10 +3099,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 690,
-          "comment": 120,
-          "share": 20,
-          "donate": 40
+          "emoji": 345,
+          "comment": 60,
+          "share": 10,
+          "donate": 20
         },
         "trafficSources": [
           {
@@ -3163,7 +3163,7 @@
         "publishedAt": "2026-04-10",
         "reach": 5006,
         "clicks": 901,
-        "interactions": 796,
+        "interactions": 398,
         "stockTags": [
           {
             "code": "TWA00",
@@ -3187,10 +3187,10 @@
           }
         ],
         "engagementBreakdown": {
-          "emoji": 598,
-          "comment": 154,
-          "share": 14,
-          "donate": 30
+          "emoji": 299,
+          "comment": 77,
+          "share": 7,
+          "donate": 15
         },
         "trafficSources": [
           {

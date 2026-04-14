@@ -149,7 +149,7 @@ const engagementOption = computed(() => {
 const daysLive = computed(() => {
   if (!detail.value) return 0
   const pub = new Date(detail.value.publishedAt)
-  const today = new Date('2026-04-07')
+  const today = new Date()
   return Math.max(1, Math.round((today.getTime() - pub.getTime()) / 86400000))
 })
 </script>
