@@ -164,6 +164,48 @@ def fetch_creator(cid):
         traf_map[aid][group] = traf_map[aid].get(group, 0) + int(t["user_cnt"] or 0)
     time.sleep(2)
 
+    # 6. Daily reach — from trans_article_displayed_source (batch all articles)
+    print("  Fetching daily reach...")
+    daily_reach_rows = query(
+        f"SELECT articleid, displayed_date, COUNT(DISTINCT memberid) as daily_reach "
+        f"FROM trans_article_displayed_source WHERE articleid IN ({ids_str}) "
+        f"GROUP BY articleid, displayed_date "
+        f"ORDER BY articleid, displayed_date",
+        limit=500,
+    )
+    daily_reach_map = {}  # {articleid: [{date, reach}]}
+    for r in daily_reach_rows:
+        aid = r["articleid"]
+        if aid not in daily_reach_map:
+            daily_reach_map[aid] = []
+        daily_reach_map[aid].append({
+            "date": r["displayed_date"],
+            "reach": int(r["daily_reach"] or 0),
+        })
+    time.sleep(2)
+
+    # 7. Daily interactions — from trans_forum_article_interactions (batch all articles)
+    print("  Fetching daily interactions...")
+    daily_inter_rows = query(
+        f"SELECT articleid, event_date, event_type, COUNT(*) as cnt "
+        f"FROM trans_forum_article_interactions WHERE articleid IN ({ids_str}) "
+        f"GROUP BY articleid, event_date, event_type "
+        f"ORDER BY articleid, event_date",
+        limit=500,
+    )
+    daily_inter_map = {}  # {articleid: {date: {emoji:n, comment:n, ...}}}
+    for r in daily_inter_rows:
+        aid = r["articleid"]
+        if aid not in daily_inter_map:
+            daily_inter_map[aid] = {}
+        d = r["event_date"]
+        if d not in daily_inter_map[aid]:
+            daily_inter_map[aid][d] = {"emoji": 0, "comment": 0, "share": 0, "donate": 0, "collect": 0}
+        etype = r["event_type"]
+        if etype in daily_inter_map[aid][d]:
+            daily_inter_map[aid][d][etype] = int(r["cnt"] or 0)
+    time.sleep(2)
+
     # Build articles
     articles = []
     for p in posts:
@@ -179,7 +221,11 @@ def fetch_creator(cid):
         except Exception:
             pass
 
-        reach = disp_map.get(aid, 0)
+        # Total reach: sum daily reach if available, else fall back to aggregated stat
+        daily_r = daily_reach_map.get(aid, [])
+        reach_from_daily = sum(d["reach"] for d in daily_r)
+        reach = reach_from_daily if reach_from_daily > 0 else disp_map.get(aid, 0)
+
         inter = inter_map.get(aid, {"emoji": 0, "comment": 0, "share": 0, "donate": 0, "total": 0})
         traf = traf_map.get(aid, {})
         total_t = sum(traf.values()) or 1
@@ -190,6 +236,22 @@ def fetch_creator(cid):
             ],
             key=lambda x: -x["count"],
         )
+
+        # Build daily metrics from real data
+        daily_dates = sorted(set(
+            [d["date"] for d in daily_r] +
+            list((daily_inter_map.get(aid) or {}).keys())
+        ))
+        daily_metrics = []
+        for dd in daily_dates:
+            dr = next((d["reach"] for d in daily_r if d["date"] == dd), 0)
+            di = (daily_inter_map.get(aid) or {}).get(dd, {})
+            daily_metrics.append({
+                "date": dd,
+                "reach": dr,
+                "clicks": round(dr * 0.18),  # estimate
+                "interactions": sum(di.get(k, 0) for k in ("emoji", "comment", "share", "donate")),
+            })
 
         articles.append(
             {
@@ -207,6 +269,7 @@ def fetch_creator(cid):
                     "donate": inter["donate"],
                 },
                 "trafficSources": traffic_sources,
+                "dailyMetrics": daily_metrics,
             }
         )
 

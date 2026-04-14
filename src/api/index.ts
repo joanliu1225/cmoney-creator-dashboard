@@ -194,26 +194,13 @@ export async function fetchArticleDetail(id: string): Promise<ArticleDetail | nu
   const article = (c.articles || []).find((a: any) => a.id === id)
   if (!article) return null
 
-  // Generate daily metrics from article data
-  const pubDate = new Date(article.publishedAt)
-  const today = new Date()
-  const dayCount = Math.max(1, Math.round((today.getTime() - pubDate.getTime()) / 86400000))
-  const days = Math.min(dayCount, 14)
-  const dailyMetrics: ArticleDetail['dailyMetrics'] = []
-  let remainReach = article.reach || 0
-  for (let i = 0; i < days; i++) {
-    const d = new Date(pubDate)
-    d.setDate(pubDate.getDate() + i)
-    const weight = Math.exp(-i * 0.35)
-    const dayReach = i === days - 1 ? remainReach : Math.round((article.reach || 0) * weight * 0.3)
-    dailyMetrics.push({
-      date: d.toISOString().slice(0, 10),
-      reach: Math.max(0, dayReach),
-      clicks: Math.max(0, Math.round(dayReach * 0.18)),
-      interactions: Math.max(0, Math.round(dayReach * 0.03)),
-    })
-    remainReach -= dayReach
-  }
+  // Use real daily metrics from Anya if available, otherwise empty
+  const dailyMetrics: ArticleDetail['dailyMetrics'] = (article.dailyMetrics || []).map((d: any) => ({
+    date: d.date,
+    reach: d.reach || 0,
+    clicks: d.clicks || 0,
+    interactions: d.interactions || 0,
+  }))
 
   const eb = article.engagementBreakdown || { emoji: 0, comment: 0, share: 0, donate: 0 }
   const ts = (article.trafficSources || []).map((s: any) => ({

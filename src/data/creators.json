@@ -319,14 +319,15 @@
           "share": 0,
           "donate": 0
         },
-        "trafficSources": []
+        "trafficSources": [],
+        "dailyMetrics": []
       },
       {
         "id": "178079904",
         "title": "為什麼你進場前說「有賺有賠」，進場後卻只想「只賺不賠」？",
         "publishedAt": "2026-04-13",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 2548,
+        "clicks": 459,
         "interactions": 120,
         "stockTags": [
           {
@@ -387,13 +388,21 @@
             "count": 15,
             "percent": 1
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-13",
+            "reach": 2548,
+            "clicks": 459,
+            "interactions": 3
+          }
         ]
       },
       {
         "id": "178055051",
         "title": "《2026.4.10 期指實戰錄》",
         "publishedAt": "2026-04-10",
-        "reach": 0,
+        "reach": 2,
         "clicks": 0,
         "interactions": 8,
         "stockTags": [],
@@ -410,13 +419,27 @@
             "count": 2,
             "percent": 100
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "178054689",
         "title": "2026.4.10美股教學案例\nAVGO博通 ",
         "publishedAt": "2026-04-10",
-        "reach": 0,
+        "reach": 2,
         "clicks": 0,
         "interactions": 4,
         "stockTags": [],
@@ -439,13 +462,27 @@
             "count": 1,
             "percent": 33
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "178054003",
         "title": "2026.4.10美股教學\n",
         "publishedAt": "2026-04-10",
-        "reach": 0,
+        "reach": 1,
         "clicks": 0,
         "interactions": 6,
         "stockTags": [],
@@ -462,14 +499,22 @@
             "count": 1,
             "percent": 100
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "178025360",
         "title": "想要高勝率？你可能正在親手毀掉你的帳戶！",
         "publishedAt": "2026-04-10",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 1644,
+        "clicks": 296,
         "interactions": 142,
         "stockTags": [
           {
@@ -530,14 +575,40 @@
             "count": 31,
             "percent": 2
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 1527,
+            "clicks": 275,
+            "interactions": 10
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 37,
+            "clicks": 7,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 34,
+            "clicks": 6,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 46,
+            "clicks": 8,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "178022272",
         "title": "《2026.4.9 期指實戰錄》",
         "publishedAt": "2026-04-10",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3,
+        "clicks": 1,
         "interactions": 8,
         "stockTags": [],
         "engagementBreakdown": {
@@ -553,14 +624,28 @@
             "count": 3,
             "percent": 100
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 2,
+            "clicks": 0,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "177993209",
         "title": "戰爭平息，下一步呢？回檔你不敢買，起漲你敢追嗎？",
         "publishedAt": "2026-04-09",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3454,
+        "clicks": 622,
         "interactions": 118,
         "stockTags": [
           {
@@ -621,14 +706,46 @@
             "count": 21,
             "percent": 1
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-09",
+            "reach": 3334,
+            "clicks": 600,
+            "interactions": 5
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 95,
+            "clicks": 17,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 10,
+            "clicks": 2,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 8,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 7,
+            "clicks": 1,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "177989847",
         "title": "《2026.4.8 期指實戰錄》",
         "publishedAt": "2026-04-09",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 4,
+        "clicks": 1,
         "interactions": 10,
         "stockTags": [],
         "engagementBreakdown": {
@@ -644,14 +761,28 @@
             "count": 3,
             "percent": 100
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-09",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "177960265",
         "title": "預測戰爭猜行情要崩盤，今天可能要吃重傷了，別猜未來",
         "publishedAt": "2026-04-08",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 1980,
+        "clicks": 356,
         "interactions": 160,
         "stockTags": [
           {
@@ -711,6 +842,44 @@
             "label": "搜尋",
             "count": 20,
             "percent": 1
+          }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-08",
+            "reach": 1892,
+            "clicks": 341,
+            "interactions": 4
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 65,
+            "clicks": 12,
+            "interactions": 1
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 18,
+            "clicks": 3,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 1,
+            "clicks": 0,
+            "interactions": 0
           }
         ]
       }
@@ -1026,8 +1195,8 @@
         "id": "178100959",
         "title": "盤後爆報 (台股世界強)",
         "publishedAt": "2026-04-13",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 12832,
+        "clicks": 2310,
         "interactions": 742,
         "stockTags": [
           {
@@ -1094,14 +1263,28 @@
             "count": 2,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-13",
+            "reach": 12832,
+            "clicks": 2310,
+            "interactions": 24
+          },
+          {
+            "date": "2026-04-14",
+            "reach": 0,
+            "clicks": 0,
+            "interactions": 5
+          }
         ]
       },
       {
         "id": "178075075",
         "title": "盤後爆報（沒談成）",
         "publishedAt": "2026-04-12",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 8059,
+        "clicks": 1451,
         "interactions": 1724,
         "stockTags": [
           {
@@ -1168,14 +1351,28 @@
             "count": 4,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-12",
+            "reach": 4752,
+            "clicks": 855,
+            "interactions": 215
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 3307,
+            "clicks": 595,
+            "interactions": 20
+          }
         ]
       },
       {
         "id": "178065704",
         "title": "今天是最後一天讓我看看你們怎拉尾盤",
         "publishedAt": "2026-04-11",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 5004,
+        "clicks": 901,
         "interactions": 858,
         "stockTags": [
           {
@@ -1226,14 +1423,34 @@
             "count": 1,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-11",
+            "reach": 1406,
+            "clicks": 253,
+            "interactions": 36
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 3333,
+            "clicks": 600,
+            "interactions": 44
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 265,
+            "clicks": 48,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "178048966",
         "title": "週日課程跟週三差別在哪？",
         "publishedAt": "2026-04-10",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 5538,
+        "clicks": 997,
         "interactions": 1068,
         "stockTags": [
           {
@@ -1284,14 +1501,40 @@
             "count": 1,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 3614,
+            "clicks": 651,
+            "interactions": 66
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 1630,
+            "clicks": 293,
+            "interactions": 144
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 227,
+            "clicks": 41,
+            "interactions": 4
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 67,
+            "clicks": 12,
+            "interactions": 4
+          }
         ]
       },
       {
         "id": "178048786",
         "title": "盤後爆報（台積電好的出彩）",
         "publishedAt": "2026-04-10",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 8872,
+        "clicks": 1597,
         "interactions": 1158,
         "stockTags": [
           {
@@ -1358,14 +1601,40 @@
             "count": 9,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 6186,
+            "clicks": 1113,
+            "interactions": 79
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 2226,
+            "clicks": 401,
+            "interactions": 151
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 427,
+            "clicks": 77,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 33,
+            "clicks": 6,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "177983667",
         "title": "免費直播",
         "publishedAt": "2026-04-08",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 2392,
+        "clicks": 431,
         "interactions": 464,
         "stockTags": [],
         "engagementBreakdown": {
@@ -1405,14 +1674,52 @@
             "count": 10,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-08",
+            "reach": 671,
+            "clicks": 121,
+            "interactions": 18
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 1120,
+            "clicks": 202,
+            "interactions": 4
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 526,
+            "clicks": 95,
+            "interactions": 2
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 65,
+            "clicks": 12,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 7,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "177983033",
         "title": "盤後爆報（歡慶二十萬訂閱）",
         "publishedAt": "2026-04-08",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 10915,
+        "clicks": 1965,
         "interactions": 2210,
         "stockTags": [
           {
@@ -1479,14 +1786,52 @@
             "count": 4,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-08",
+            "reach": 8148,
+            "clicks": 1467,
+            "interactions": 376
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 2598,
+            "clicks": 468,
+            "interactions": 19
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 151,
+            "clicks": 27,
+            "interactions": 191
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 6,
+            "clicks": 1,
+            "interactions": 1
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 9,
+            "clicks": 2,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 5
+          }
         ]
       },
       {
         "id": "177960834",
         "title": "盤前爆報（睡一覺又奇蹟了）",
         "publishedAt": "2026-04-08",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 9547,
+        "clicks": 1718,
         "interactions": 760,
         "stockTags": [
           {
@@ -1553,14 +1898,52 @@
             "count": 2,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-08",
+            "reach": 9427,
+            "clicks": 1697,
+            "interactions": 70
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 94,
+            "clicks": 17,
+            "interactions": 1
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 16,
+            "clicks": 3,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 4,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "177949793",
         "title": "晚上不直播 我要躺在那邊當一塊爛肉",
         "publishedAt": "2026-04-07",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 827,
+        "clicks": 149,
         "interactions": 652,
         "stockTags": [],
         "engagementBreakdown": {
@@ -1606,14 +1989,52 @@
             "count": 1,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-07",
+            "reach": 465,
+            "clicks": 84,
+            "interactions": 15
+          },
+          {
+            "date": "2026-04-08",
+            "reach": 338,
+            "clicks": 61,
+            "interactions": 2
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 15,
+            "clicks": 3,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 1
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          }
         ]
       },
       {
         "id": "177932894",
         "title": "盤前爆報（0840直播）",
         "publishedAt": "2026-04-07",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 4109,
+        "clicks": 740,
         "interactions": 810,
         "stockTags": [
           {
@@ -1661,6 +2082,44 @@
             "label": "搜尋",
             "count": 24,
             "percent": 1
+          }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-07",
+            "reach": 3853,
+            "clicks": 694,
+            "interactions": 93
+          },
+          {
+            "date": "2026-04-08",
+            "reach": 239,
+            "clicks": 43,
+            "interactions": 1
+          },
+          {
+            "date": "2026-04-09",
+            "reach": 8,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-10",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 3,
+            "clicks": 1,
+            "interactions": 0
           }
         ]
       }
@@ -1976,8 +2435,8 @@
         "id": "178101494",
         "title": "完全新手班免費講座❤️參加資格先加入「快閃群」了解詳情",
         "publishedAt": "2026-04-13",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 5578,
+        "clicks": 1004,
         "interactions": 678,
         "stockTags": [
           {
@@ -2038,14 +2497,22 @@
             "count": 122,
             "percent": 2
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-13",
+            "reach": 5578,
+            "clicks": 1004,
+            "interactions": 5
+          }
         ]
       },
       {
         "id": "178090867",
         "title": "驗證新式型態學的實力❤️還不加入免費快閃裙那我也幫不了你",
         "publishedAt": "2026-04-13",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 5717,
+        "clicks": 1029,
         "interactions": 776,
         "stockTags": [
           {
@@ -2112,14 +2579,28 @@
             "count": 3,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-13",
+            "reach": 5717,
+            "clicks": 1029,
+            "interactions": 7
+          },
+          {
+            "date": "2026-04-14",
+            "reach": 0,
+            "clicks": 0,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "178080218",
         "title": "昨天提到的談判破裂目前稍有影響❤️新手觀望，要做只能短做",
         "publishedAt": "2026-04-13",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 6849,
+        "clicks": 1233,
         "interactions": 1514,
         "stockTags": [
           {
@@ -2186,14 +2667,22 @@
             "count": 2,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-13",
+            "reach": 6849,
+            "clicks": 1233,
+            "interactions": 11
+          }
         ]
       },
       {
         "id": "178074958",
         "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（下集）",
         "publishedAt": "2026-04-12",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3289,
+        "clicks": 592,
         "interactions": 952,
         "stockTags": [
           {
@@ -2260,14 +2749,28 @@
             "count": 2,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-12",
+            "reach": 2133,
+            "clicks": 384,
+            "interactions": 65
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 1156,
+            "clicks": 208,
+            "interactions": 14
+          }
         ]
       },
       {
         "id": "178074070",
         "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（中集）",
         "publishedAt": "2026-04-12",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 4148,
+        "clicks": 747,
         "interactions": 878,
         "stockTags": [
           {
@@ -2328,14 +2831,28 @@
             "count": 35,
             "percent": 1
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-12",
+            "reach": 2724,
+            "clicks": 490,
+            "interactions": 67
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 1424,
+            "clicks": 256,
+            "interactions": 5
+          }
         ]
       },
       {
         "id": "178071791",
         "title": "《莎拉的型態學教室》❤️加密、黃金原油、國際盤與台指（上集）",
         "publishedAt": "2026-04-12",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3223,
+        "clicks": 580,
         "interactions": 804,
         "stockTags": [
           {
@@ -2398,14 +2915,28 @@
             "count": 1,
             "percent": 0
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-12",
+            "reach": 2642,
+            "clicks": 476,
+            "interactions": 70
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 581,
+            "clicks": 105,
+            "interactions": 2
+          }
         ]
       },
       {
         "id": "178069464",
         "title": "即日起推動「新式型態學運動」❤️",
         "publishedAt": "2026-04-12",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3896,
+        "clicks": 701,
         "interactions": 1322,
         "stockTags": [
           {
@@ -2466,14 +2997,28 @@
             "count": 65,
             "percent": 2
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-12",
+            "reach": 3354,
+            "clicks": 604,
+            "interactions": 231
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 542,
+            "clicks": 98,
+            "interactions": 2
+          }
         ]
       },
       {
         "id": "178063913",
         "title": "新式型態學劃線家教班台中場大成功❤️",
         "publishedAt": "2026-04-11",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3184,
+        "clicks": 573,
         "interactions": 962,
         "stockTags": [
           {
@@ -2518,14 +3063,34 @@
             "count": 72,
             "percent": 2
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-11",
+            "reach": 2401,
+            "clicks": 432,
+            "interactions": 78
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 759,
+            "clicks": 137,
+            "interactions": 14
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 24,
+            "clicks": 4,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "178060162",
         "title": "莎拉的週末心情分享❤️加入免費快閃群一起找到滿足成就感的來源",
         "publishedAt": "2026-04-11",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 3114,
+        "clicks": 561,
         "interactions": 870,
         "stockTags": [
           {
@@ -2570,14 +3135,34 @@
             "count": 34,
             "percent": 1
           }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-11",
+            "reach": 2888,
+            "clicks": 520,
+            "interactions": 97
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 216,
+            "clicks": 39,
+            "interactions": 16
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 10,
+            "clicks": 2,
+            "interactions": 1
+          }
         ]
       },
       {
         "id": "178052119",
         "title": "莎拉的週末持股提問又來囉❤️本週日會在免費快閃群內做語音直播",
         "publishedAt": "2026-04-10",
-        "reach": 0,
-        "clicks": 0,
+        "reach": 5006,
+        "clicks": 901,
         "interactions": 796,
         "stockTags": [
           {
@@ -2637,6 +3222,32 @@
             "label": "搜尋",
             "count": 32,
             "percent": 1
+          }
+        ],
+        "dailyMetrics": [
+          {
+            "date": "2026-04-10",
+            "reach": 4071,
+            "clicks": 733,
+            "interactions": 84
+          },
+          {
+            "date": "2026-04-11",
+            "reach": 886,
+            "clicks": 159,
+            "interactions": 22
+          },
+          {
+            "date": "2026-04-12",
+            "reach": 33,
+            "clicks": 6,
+            "interactions": 4
+          },
+          {
+            "date": "2026-04-13",
+            "reach": 16,
+            "clicks": 3,
+            "interactions": 2
           }
         ]
       }
